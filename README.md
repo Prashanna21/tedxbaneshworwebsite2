@@ -1,3 +1,29 @@
+ # NOTES:
+
+ * Only `yarn` will be supported
+ - Once the repo is `forked` or `cloned` use `yarn`
+ * if you use `npm install` you will get the error:
+
+ ### Running Local Server
+ ```
+ yarn dev
+ ```
+
+ ## App Folder Breakdown:
+ - `public` - this will be used for the site genration for the public (i.e website part)
+ - `admin` - this will be used for CMS to be used by the Internal Team
+
+ * Make use of only variables and avoid writing custom classNames:
+ ```
+ IGNORE:
+ text-[40px] 
+ ------------
+ Recommended:
+ text-4xl
+ ```
+ 
+ <!-- BELOW IS THE DEFAULT README (Can be Ignored) -->
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
