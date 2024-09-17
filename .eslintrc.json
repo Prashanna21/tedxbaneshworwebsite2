@@ -1,3 +1,102 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "next",
+    "eslint:recommended",
+    "plugin:storybook/recommended",
+    "prettier",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/recommended",
+    "./config.json"
+  ],
+  "globals": {
+    "React": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "plugins": ["import", "prettier", "@typescript-eslint"],
+  "rules": {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "prettier/prettier": ["error"],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      1,
+      {
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "react/no-unescaped-entities": 0,
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+    "import/no-unresolved": "off",
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [".*"]
+      }
+    ],
+    "@typescript-eslint/camelcase": 0,
+    "max-len": [
+      "error",
+      120,
+      2,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "import/prefer-default-export": ["off"],
+    "react/prop-types": 0,
+    "no-dupe-args": "error",
+    "no-dupe-keys": "error",
+    "no-unreachable": "error",
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "react/no-array-index-key": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
+      "rules": {
+        "storybook/hierarchy-separator": "error"
+      }
+    }
+  ],
+  "ignorePatterns": [
+    ".husky",
+    ".eslintrc.js",
+    ".prettierrc.js",
+    "/.git",
+    "/.vscode",
+    "/libraries",
+    "/**/__snapshots__",
+    "/**/node_modules"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["./"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      },
+      "typescript": {
+        "directory": "./tsconfig.json"
+      }
+    }
+  }
 }
