@@ -27,6 +27,11 @@ Recommended:
 text-4xl
 ```
 
+## Understanding the Folders
+- Within `components` we have `shared` and `ui`
+- `ui` - all components installed with `shadcn` will be added here and we will not be modifying here much
+- `shared` - our custom components will be created here
+
 #### BELOW IS THE DEFAULT README (Can be Ignored)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
