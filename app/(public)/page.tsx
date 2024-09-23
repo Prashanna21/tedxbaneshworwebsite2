@@ -1,6 +1,10 @@
+import SpeakerCard from "@/components/shared/speaker-card";
+import { SpeakerCardExampleData } from "@/constants/example";
+
 export default function Home() {
   return (
     <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20">
+      <SpeakerCard {...SpeakerCardExampleData} />
       <h1 className="text-4xl">This is Public Route</h1>
       <h1 className="text-2xl">This is RED TEXT</h1>
       <p className="text-red-c1">This is Red c1</p>
