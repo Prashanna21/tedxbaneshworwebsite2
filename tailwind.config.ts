@@ -17,13 +17,17 @@ const config: Config = {
           c1: "#850b0b",
           c3: "#de3535",
           c4: "#f65e5e",
-          500: '#ff0404'
+          c5: "#EB0202",
+          500: "#ff0404",
         },
         black: {
           c1: "#171616",
           c2: "#272424",
           c3: "#504a4a",
           c4: "#6f6565",
+        },
+        blue: {
+          c1: "#0F172A",
         },
         card: {
           DEFAULT: "hsl(var(--card))",
@@ -68,7 +72,7 @@ const config: Config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-        5: '5px'
+        5: "5px",
       },
     },
   },
