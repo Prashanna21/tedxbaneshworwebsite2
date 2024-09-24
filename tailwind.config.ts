@@ -17,7 +17,7 @@ const config: Config = {
           c1: "#850b0b",
           c3: "#de3535",
           c4: "#f65e5e",
-          500: "#FF0404",
+          500: '#ff0404'
         },
         black: {
           c1: "#171616",
@@ -68,6 +68,7 @@ const config: Config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        5: '5px'
       },
       fontSize: {
         '2xl' : '1.725rem',
