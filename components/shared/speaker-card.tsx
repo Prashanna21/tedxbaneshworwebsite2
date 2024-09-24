@@ -13,8 +13,8 @@ const SpeakerCard = ({ name, position, imageSrc }: TSpeakerCardProps) => {
     <Card className="rounded-5 bg-red-500">
       <Image alt="speaker" src={imageSrc} width={210} height={206} />
       <CardFooter className="p-6 text-white flex flex-col">
-        <h6 className="font-bold text-2xl">{name}</h6>
-        <p className="font-semibold text-lg">{position}</p>
+        <h6 className="font-bold text-lg">{name}</h6>
+        <p className="font-semibold text-md">{position}</p>
       </CardFooter>
     </Card>
   );
