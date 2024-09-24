@@ -5,7 +5,10 @@ import { SpeakerCardExampleData } from "@/constants/example";
 
 export default function Home() {
   return (
+    <div>
+    <HeroSection />
     <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20">
+      
       <SpeakerCard {...SpeakerCardExampleData} />
       <h1 className="text-4xl">This is Public Route</h1>
       <h1 className="text-2xl">This is RED TEXT</h1>
@@ -19,6 +22,6 @@ export default function Home() {
       <p className="text-black-c3">This is black c3</p>
       <p className="text-black-c4">This is black c4</p>
     </div>
-
+    </div>
   );
 }
