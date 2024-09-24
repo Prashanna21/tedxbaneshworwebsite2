@@ -17,6 +17,7 @@ const config: Config = {
           c1: "#850b0b",
           c3: "#de3535",
           c4: "#f65e5e",
+          500: "#FF0404",
         },
         black: {
           c1: "#171616",
