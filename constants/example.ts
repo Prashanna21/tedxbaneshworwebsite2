@@ -11,3 +11,10 @@ export const HERO_DETAILS = {
   image: `/hero.png`,
   tag: `Nepal's Biggest **TEDx** Event Happening Soon`,
 };
+
+export const TALK_SUMMARY_CARD_EXAMPLE = {
+  src: `/hero.png`,
+  title: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quos eum
+        quibusdam quam delectus fugiat nesciunt ab exercitationem quasi ratione
+        dolorem repellat sequi`,
+};
