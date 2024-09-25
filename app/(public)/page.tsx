@@ -1,16 +1,16 @@
 import SpeakerCard from "@/components/shared/speaker-card";
 import HeroSection from "../../components/shared/hero-section";
 import { SpeakerCardExampleData } from "@/constants/example";
-import TalkSummaryCard from "@/components/shared/talk-summary-card";
 import HomePageTalkSection from "@/components/homepage-talk-section";
+import HomepageSpeakerList from "@/components/homepage-speaker-list";
 
 export default function Home() {
   return (
     <div>
       <HeroSection />
       <HomePageTalkSection />
+      <HomepageSpeakerList />
       <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20">
-        <SpeakerCard {...SpeakerCardExampleData} />
         <h1 className="text-4xl">This is Public Route</h1>
         <h1 className="text-2xl">This is RED TEXT</h1>
         <p className="text-red-c1">This is Red c1</p>

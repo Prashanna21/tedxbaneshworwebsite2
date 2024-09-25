@@ -1,10 +1,38 @@
-import { TSpeakerCardProps } from "@/components/shared/speaker-card";
+import { TSpeakerCardProps } from "@/types/type";
 
 export const SpeakerCardExampleData: TSpeakerCardProps = {
   imageSrc: `/png/dummy_person.png`,
   name: "Shyan Jane",
   position: "CEO, Lorem",
 };
+
+export const SpeakerCardListExammple: TSpeakerCardProps[] = [
+  {
+    imageSrc: `/png/dummy_person.png`,
+    name: "Shyan Jane",
+    position: "CEO, Lorem",
+  },
+  {
+    imageSrc: `/png/dummy_person2.png`,
+    name: "John Doe",
+    position: "CTO, Ipsum",
+  },
+  {
+    imageSrc: `/png/dummy_person3.png`,
+    name: "Jane Doe",
+    position: "CFO, Dolor",
+  },
+  {
+    imageSrc: `/png/dummy_person4.png`,
+    name: "John Jane",
+    position: "COO, Sit",
+  },
+  {
+    imageSrc: `/png/dummy_person5.png`,
+    name: "Jane Doe",
+    position: "CFO, Dolor",
+  },
+];
 
 export const HERO_DETAILS = {
   title: `Empowering **Ideas**,   \nIgniting Change`,
