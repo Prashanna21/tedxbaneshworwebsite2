@@ -1,10 +1,10 @@
 //react ts compoent
 import React from "react";
-import { SpeakerCardExampleData } from "@/constants/example";
-import SpeakerCard from "../shared/speaker-card";
+import SpeakerCard from "./shared/speaker-card";
 import Link from "next/link";
+import { SpeakerCardListExammple } from "@/constants/example";
 
-export default function SpeakersSection() {
+export default function HomepageSpeakerList() {
   return (
     <section className="bg-blue-c1 px-32 py-20">
       <div className="flex flex-col items-center gap-8">
@@ -19,13 +19,14 @@ export default function SpeakersSection() {
           </p>
         </div>
         <div className="flex justify-between gap-8">
-          {SpeakerCardExampleData.map((speaker, index) => (
+          {SpeakerCardListExammple?.map((speaker, index) => (
             <SpeakerCard key={index} {...speaker} />
           ))}
         </div>
         <Link
           href="/speakers"
-          className="text-red-500 font-semibold text-lg underline">
+          className="text-red-500 font-semibold text-lg underline"
+        >
           View All
         </Link>
       </div>
