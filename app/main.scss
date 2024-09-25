@@ -11,3 +11,9 @@
     @apply text-red-500 font-semibold;
   }
 }
+
+.speaker_list-title {
+  strong {
+    @apply text-red-c5 font-bold;
+  }
+}
