@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 
 // Import styles within this block
 import "./globals.css";
+import "./main.scss";
 
 // Import Fonts Here
 const poppins = Poppins({

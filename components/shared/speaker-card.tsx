@@ -1,12 +1,7 @@
 import React from "react";
 import { Card, CardFooter } from "../ui/card";
 import Image from "next/image";
-
-export type TSpeakerCardProps = {
-  name: string;
-  position: string;
-  imageSrc: string;
-};
+import { TSpeakerCardProps } from "@/types/type";
 
 const SpeakerCard = ({ name, position, imageSrc }: TSpeakerCardProps) => {
   return (
