@@ -1,0 +1,13 @@
+.hero_title {
+  @apply leading-normal;
+
+  strong {
+    @apply text-red-500 font-extrabold;
+  }
+}
+
+.hero_tag {
+  strong {
+    @apply text-red-500 font-semibold;
+  }
+}
