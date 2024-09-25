@@ -3,3 +3,8 @@ export type THeroDetails = {
   image: string;
   tag: string;
 };
+
+export type TTalkSummaryCard = {
+  src: string;
+  title: string;
+};
