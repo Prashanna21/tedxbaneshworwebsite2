@@ -21,3 +21,16 @@ export type TTalkBannerProps = {
   title: string;
   description: string;
 };
+
+export type TSocialLinkTypes =
+  | "facebook"
+  | "instagram"
+  | "twitter"
+  | "youtube"
+  | "linkedIn";
+
+export type TSocialLink = {
+  id: number;
+  url: string;
+  type: TSocialLinkTypes;
+};
