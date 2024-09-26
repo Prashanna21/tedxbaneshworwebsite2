@@ -87,3 +87,10 @@ export const FOOTER_CONTACT_INFO_EXAMPLE = {
   email: `tedxbaneshwor@g123gmail.com`,
   googleMap: GOOGLE_MAP,
 };
+
+export const NAV_LINKS_EXAMPLE = [
+  { id: "1", url: "/", title: "Home" },
+  { id: "2", url: "/", title: "About" },
+  { id: "3", url: "/", title: "Explore" },
+  { id: "4", url: "/", title: "Contact" },
+];
