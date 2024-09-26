@@ -12,6 +12,7 @@ export default function Home() {
         <HomePageTalkSection />
         <HomepageSpeakerList />
       </section>
+      <section className="min-h-[400px]">Other Section</section>
     </div>
   );
 }

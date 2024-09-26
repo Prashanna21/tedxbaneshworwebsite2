@@ -8,8 +8,9 @@ import CustomMDReactComponent from "@/provider/CustomMdComponent";
 export default function HomepageSpeakerList() {
   const title = `Meet Our **Speakers**`;
 
+  // TODO: remove overflow-hidden later
   return (
-    <section className="bg-blue-c1 px-32 py-20">
+    <section className="bg-dark-c1 px-32 py-20 overflow-hidden">
       <div className="flex flex-col items-center gap-8">
         <div className="section-title text-center text-white">
           <CustomMDReactComponent
