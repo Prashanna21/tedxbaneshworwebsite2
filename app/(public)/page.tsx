@@ -3,6 +3,7 @@ import HeroSection from "../../components/shared/hero-section";
 import { SpeakerCardExampleData } from "@/constants/example";
 import HomePageTalkSection from "@/components/homepage-talk-section";
 import HomepageSpeakerList from "@/components/homepage-speaker-list";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
