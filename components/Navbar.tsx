@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-950 fixed top-0 left-0 w-full z-50 px-8 py-2 flex items-center"> {/* Added fixed and z-50 */}
+    <div className="bg-slate-950 w-full px-8 py-2.5 flex mx-auto items-center max-w-[1450px]"> {/* Added fixed and z-50 */}
       <div className="flex flex-col items-start">
         <div className="flex items-center space-x-1 leading-none">
           <h1 className="text-red-800 font-bold text-2xl">TEDx</h1>
@@ -14,7 +14,7 @@ const Navbar = () => {
         </p>
       </div>
       <div className="ml-auto flex gap-40">
-        <div className="flex space-x-24 items-center">
+        <div className="flex space-x-10 items-center">
           <Link href="/" passHref>
             <span className="text-white text-sm hover:text-red-600">Home</span>
           </Link>
