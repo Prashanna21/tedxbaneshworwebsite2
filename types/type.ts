@@ -14,3 +14,23 @@ export type TSpeakerCardProps = {
   position: string;
   imageSrc: string;
 };
+
+export type TTalkBannerProps = {
+  tag: string;
+  highlight: string;
+  title: string;
+  description: string;
+};
+
+export type TSocialLinkTypes =
+  | "facebook"
+  | "instagram"
+  | "twitter"
+  | "youtube"
+  | "linkedIn";
+
+export type TSocialLink = {
+  id: number;
+  url: string;
+  type: TSocialLinkTypes;
+};
