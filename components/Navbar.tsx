@@ -2,6 +2,7 @@ import { NAV_LINKS_EXAMPLE } from "@/constants/example";
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 const NavLink = ({ url, title }) => (
   <Link href={url}>
@@ -16,14 +17,12 @@ const Navbar = () => {
         {" "}
         {/* Change items-start to items-center */}
         <div className="flex flex-col items-start">
-          <div className="flex items-center space-x-1 leading-none">
-            <h1 className="text-red-800 font-bold text-2xl">TEDx</h1>
-            <h1 className="text-white text-2xl">Baneshwor</h1>
-          </div>
-          <p className="text-xs text-white leading-none">
-            <span className="text-red-800">X</span> = independently organized
-            TED event
-          </p>
+          <Image
+            width={200}
+            height={100}
+            src={"/logos/tedx_text.png"}
+            alt="logo"
+          />
         </div>
         <div className="ml-auto flex gap-16">
           {" "}
