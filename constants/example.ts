@@ -46,3 +46,11 @@ export const TALK_SUMMARY_CARD_EXAMPLE = {
         quibusdam quam delectus fugiat nesciunt ab exercitationem quasi ratione
         dolorem repellat sequi`,
 };
+
+export const TALK_BANNER_CARD_EXAMPLE = {
+  tag: `Shaping the Digital Landscape`,
+  highlight: `**TEDx** Baneshowr 2023`,
+  title: `Code for the Future`,
+  description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt voluptate
+        ratione.`,
+};
