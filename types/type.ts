@@ -14,3 +14,10 @@ export type TSpeakerCardProps = {
   position: string;
   imageSrc: string;
 };
+
+export type TTalkBannerProps = {
+  tag: string;
+  highlight: string;
+  title: string;
+  description: string;
+};

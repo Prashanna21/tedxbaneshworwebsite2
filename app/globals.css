@@ -89,4 +89,8 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+
+  .lg_screen {
+    @apply max-w-[1440px] mx-auto;
+  }
 }

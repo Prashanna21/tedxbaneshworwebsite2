@@ -75,8 +75,9 @@ const config: Config = {
         5: "5px",
       },
       fontSize: {
-        '2xl' : '1.725rem',
-      }
+        "2xl": "1.725rem",
+        lg: "18px",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
