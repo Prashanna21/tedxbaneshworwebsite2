@@ -4,11 +4,13 @@ import { SpeakerCardExampleData } from "@/constants/example";
 import HomePageTalkSection from "@/components/homepage-talk-section";
 import HomepageSpeakerList from "@/components/homepage-speaker-list";
 import Navbar from "@/components/Navbar";
+import Speaker from "@/components/Speaker";
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
+      <Speaker/>
       <HeroSection />
       <HomePageTalkSection />
       <HomepageSpeakerList />
@@ -26,6 +28,7 @@ export default function Home() {
         <p className="text-black-c3">This is black c3</p>
         <p className="text-black-c4">This is black c4</p>
       </div>
+      <Speaker/>
     </div>
   );
 }
