@@ -26,7 +26,7 @@ const config: Config = {
           c3: "#504a4a",
           c4: "#6f6565",
         },
-        blue: {
+        dark: {
           c1: "#0F172A",
         },
         card: {
