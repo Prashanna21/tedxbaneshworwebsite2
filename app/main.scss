@@ -17,3 +17,21 @@
     @apply text-red-c5 font-bold;
   }
 }
+
+.talk_banner-highlight {
+  strong {
+    @apply text-red-500 font-bold;
+  }
+}
+
+.footer_tedx {
+  strong {
+    @apply text-red-500;
+  }
+}
+
+.title_highlighted {
+  strong {
+    @apply text-red-500 font-medium;
+  }
+}
