@@ -9,12 +9,12 @@ import Speaker from "@/components/Speaker";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <Speaker/>
+      <Navbar />
+      {/*  <Speaker/> */}
       <HeroSection />
       <HomePageTalkSection />
       <HomepageSpeakerList />
-      
+
       <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-4 sm:p-20">
         <h1 className="text-4xl">This is Public Route</h1>
         <h1 className="text-2xl">This is RED TEXT</h1>
@@ -28,7 +28,7 @@ export default function Home() {
         <p className="text-black-c3">This is black c3</p>
         <p className="text-black-c4">This is black c4</p>
       </div>
-      <Speaker/>
+      <Speaker />
     </div>
   );
 }
