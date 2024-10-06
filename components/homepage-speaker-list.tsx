@@ -26,8 +26,9 @@ export default function HomepageSpeakerList() {
     }
   };
 
+  // TODO: remove overflow-hidden later
   return (
-    <section className="bg-blue-c1 px-32 py-20">
+    <section className="bg-dark-c1 px-32 py-20 overflow-hidden">
       <div className="flex flex-col items-center gap-8">
         <div className="section-title text-center text-white">
           <CustomMDReactComponent
@@ -48,7 +49,7 @@ export default function HomepageSpeakerList() {
             onClick={handlePrev}
             disabled={currentIndex === 0}
           >
-            <FiChevronLeft className="w-6 h-6" />
+            <FiChevronLeft className="w-6 text-black-c1 h-6" />
           </button>
 
           <div className="flex justify-between gap-8 w-full overflow-hidden px-12">
@@ -64,7 +65,7 @@ export default function HomepageSpeakerList() {
             onClick={handleNext}
             disabled={currentIndex >= SpeakerCardListExammple.length - speakersToShow}
           >
-            <FiChevronRight className="w-6 h-6 " />
+            <FiChevronRight className="w-6 text-black-c1 h-6 " />
           </button>
         </div>
         <Link
