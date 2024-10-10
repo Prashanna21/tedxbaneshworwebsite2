@@ -2,6 +2,7 @@ import { NAV_LINKS_EXAMPLE } from "@/constants/example";
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
+import { IoIosMenu } from "react-icons/io";
 import Image from "next/image";
 
 const NavLink = ({ url, title }) => (
@@ -12,16 +13,17 @@ const NavLink = ({ url, title }) => (
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-950 w-full fixed z-50 left-0 right-0">
+    <nav className="bg-slate-950 w-full fixed z-50 left-0 right-0">
       <div className="px-8 py-2.5 flex mx-auto items-center max-w-[1400px] ">
         {" "}
-        {/* Change items-start to items-center */}
-        <div className="flex flex-col items-start">
+
+        <div className="flex flex-col items-center sm:w-[185px]">
           <Image
             width={200}
             height={100}
             src={"/logos/tedx_text.png"}
             alt="logo"
+
           />
         </div>
         <div className="ml-auto flex gap-16">
@@ -37,9 +39,14 @@ const Navbar = () => {
               </Button>
             </Link>
           </div>
+          
+          <div className="sm:hidden">
+            <IoIosMenu size={30}/>
+          </div>
+
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
