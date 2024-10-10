@@ -26,7 +26,7 @@ const Navbar = () => {
             height={100}
             src={"/logos/tedx_text.png"}
             alt="logo"
-            layout="responsive"
+            style={{ objectFit: 'cover', height: "auto"}}
           />
         </div>
         <div className="ml-auto flex gap-16">
