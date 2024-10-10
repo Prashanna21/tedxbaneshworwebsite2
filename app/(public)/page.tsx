@@ -18,6 +18,7 @@ export default function Home() {
       </section>
       <SponserSection />
       <section className="min-h-[400px]">Other Section</section>
+
     </div>
   );
 }
