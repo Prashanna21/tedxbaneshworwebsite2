@@ -9,13 +9,13 @@ const SponserSection = () => {
             </h2>
 
             <div className="flex gap-5 flex-wrap justify-center">
-                {/* Sponsor with Next.js Image */}
-                <div className="relative  h-20 w-40 flex justify-center items-center">
+                
+                <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
                     <Image
                         src="/partners/esewa.png"
                         alt="Sponsor Logo"
-                        layout="fill"
-                        objectFit="contain"
+                        fill = {true}
+                        sizes=""
                         className="rounded"
                     />
                 </div>
