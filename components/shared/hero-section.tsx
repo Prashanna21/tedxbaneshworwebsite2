@@ -18,18 +18,18 @@ const HeroSection: React.FC = async () => {
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <div className="relative z-10 flex flex-col items-start justify-center h-full text-white px-6 pt-12 md:pt-0 md:px-20 lg:px-32">
         <CustomMDReactComponent
-          className="hero_title text-lg md:text-6xl font-extrabold mb-4 leading-tight tracking-wide"
+          className="hero_title text-2xl md:text-6xl font-extrabold mb-4 leading-tight tracking-wide"
           text={title}
         />
         <CustomMDReactComponent
-          className="hero_tag md:text-2xl mb-8 font-semibold"
+          className="hero_tag max-w-56 text-[16px] md:max-w-full md:text-2xl mb-8 font-semibold"
           text={tag}
         />
-        <div className="flex space-x-4">
-          <Button variant="destructive" className="font-bold text-xl py-8 px-6">
+        <div className="flex flex-col md:flex-row gap-4 md:space-x-4">
+          <Button variant="destructive" className="font-bold text-xl py-6 px-4 md:py-8 md:px-6">
             Explore More
           </Button>
-          <Button className="font-bold text-xl py-8 px-6" variant="secondary">
+          <Button className="font-bold text-xl py-6 px-4 md:py-8 md:px-6" variant="secondary">
             Buy Tickets
           </Button>
         </div>
