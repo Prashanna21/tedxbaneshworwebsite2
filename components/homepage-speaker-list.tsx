@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SpeakerCard from "./shared/speaker-card";
 import Link from "next/link";
 import { SpeakerCardListExammple } from "@/constants/example";
@@ -10,7 +10,28 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi"; // Importing ico
 export default function HomepageSpeakerList() {
   const title = `Meet Our **Speakers**`;
   const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const speakersToShow = 4; // Number of speakers to show at a time
+  const [speakersToShow, setSpeakersToShow] = useState<number>(4); // Default to 4 speakers
+
+  // Update the number of speakers to show based on screen size
+  useEffect(() => {
+    const updateSpeakersToShow = () => {
+      if (window.innerWidth < 640) {
+        setSpeakersToShow(2); // Show 1 card for small screens
+      } else {
+        setSpeakersToShow(4); // Show 4 cards for larger screens
+      }
+    };
+
+    // Run on initial render
+    updateSpeakersToShow();
+
+    // Add event listener to update on window resize
+    window.addEventListener('resize', updateSpeakersToShow);
+
+    return () => {
+      window.removeEventListener('resize', updateSpeakersToShow);
+    };
+  }, []);
 
   const visibleSpeakers = SpeakerCardListExammple.slice(currentIndex, currentIndex + speakersToShow);
 
@@ -28,7 +49,7 @@ export default function HomepageSpeakerList() {
 
   // TODO: remove overflow-hidden later
   return (
-    <section className="bg-dark-c1 px-32 py-20 overflow-hidden">
+    <section className="bg-dark-c1 px-2 md:px-32 py-20">
       <div className="flex flex-col items-center gap-8">
         <div className="section-title text-center text-white">
           <CustomMDReactComponent
@@ -52,7 +73,7 @@ export default function HomepageSpeakerList() {
             <FiChevronLeft className="w-6 text-black-c1 h-6" />
           </button>
 
-          <div className="flex justify-between gap-8 w-full overflow-hidden px-12">
+          <div className="flex justify-center sm:justify-between gap-8 w-full overflow-hidden px-12">
             {visibleSpeakers.map((speaker, index) => (
               <SpeakerCard key={index} {...speaker} />
             ))}
