@@ -73,7 +73,7 @@ export default function HomepageSpeakerList() {
             <FiChevronLeft className="w-6 text-black-c1 h-6" />
           </button>
 
-          <div className="flex justify-center sm:justify-between gap-4 md:gap-8 w-full overflow-hidden px-4">
+          <div className="flex justify-center sm:justify-between gap-4 md:gap-8 w-full overflow-hidden px-4 md:px-12">
             {visibleSpeakers.map((speaker, index) => (
               <SpeakerCard key={index} {...speaker} />
             ))}
