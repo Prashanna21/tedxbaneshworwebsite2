@@ -22,14 +22,14 @@ const HeroSection: React.FC = async () => {
           text={title}
         />
         <CustomMDReactComponent
-          className="hero_tag max-w-56 text-[16px] md:max-w-full md:text-2xl mb-8 font-semibold"
+          className="hero_tag max-w-56 text-[16px] md:max-w-full md:text-2xl mb-[65px] md:mb-8 md:mt-0 font-semibold"
           text={tag}
         />
-        <div className="flex flex-col md:flex-row gap-4 md:space-x-4">
-          <Button variant="destructive" className="font-bold text-xl py-6 px-4 md:py-8 md:px-6">
+        <div className="flex flex-row md:flex-row gap-6 md:gap-4 md:space-x-4">
+          <Button variant="destructive" className="font-bold text-lg py-6 px-4 md:py-8 md:text-xl md:px-6">
             Explore More
           </Button>
-          <Button className="font-bold text-xl py-6 px-4 md:py-8 md:px-6" variant="secondary">
+          <Button className="font-bold text-lg py-6 px-4 md:py-8 md:px-6 md:text-xl" variant="secondary">
             Buy Tickets
           </Button>
         </div>
