@@ -65,8 +65,8 @@ export const PAYMENT_PARTNERS_LIST_EXAMPLE = [
 export const OTHER_LINKS_EXAMPLE = [
   { id: "1", url: "#", title: "About Us" },
   { id: "2", url: "#", title: "Highlights" },
-  { id: "3", url: "#", title: "Speakers" },
-  { id: "4", url: "#", title: "Our Teams" },
+  { id: "3", url: "/our-speaker", title: "Speakers" },
+  { id: "4", url: "/our-team", title: "Our Teams" },
   { id: "5", url: "#", title: "FAQ" },
 ];
 
@@ -88,18 +88,17 @@ export const FOOTER_CONTACT_INFO_EXAMPLE = {
 };
 
 export const NAV_LINKS_EXAMPLE = [
-  { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "Contact Us", url: "/contact-us" },
-  /* { id: 3, title: "Contact", url: "/contact" },
-  {
-    id: 4,
-    title: "Explore",
-    url: "/explore",
-    dropdown: [
-      { title: "Option 1", url: "/explore/option1" },
-      { title: "Option 2", url: "/explore/option2" },
-    ],
-  }, */
-
-
+  { id: "1", url: "/", title: "Home" },
+  { id: "2", url: "/about-us", title: "About" },
+  { id: "3", url: "/", title: "Explore" },
+  { id: "4", url: "/", title: "Contact" },
+  // {
+  //   id: 4,
+  //   title: "Explore",
+  //   url: "/explore",
+  //   dropdown: [
+  //     { title: "Option 1", url: "/explore/option1" },
+  //     { title: "Option 2", url: "/explore/option2" },
+  //   ],
+  // },
 ];

@@ -22,7 +22,7 @@ const HeroSection: React.FC = async () => {
           text={title}
         />
         <CustomMDReactComponent
-          className="hero_tag max-w-56 text-[16px] md:max-w-full md:text-2xl mb-[75px] md:mb-8 md:mt-0 font-semibold"
+          className="hero_tag max-w-56 text-[16px] md:max-w-full md:text-2xl mb-[65px] md:mb-8 md:mt-0 font-semibold"
           text={tag}
         />
         <div className="flex flex-row md:flex-row gap-6 md:gap-4 md:space-x-4">
