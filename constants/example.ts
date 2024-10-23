@@ -90,7 +90,7 @@ export const FOOTER_CONTACT_INFO_EXAMPLE = {
 
 export const NAV_LINKS_EXAMPLE = [
   { id: "1", url: "/", title: "Home" },
-  { id: "2", url: "/", title: "About" },
+  { id: "2", url: "/about-us", title: "About" },
   { id: "3", url: "/", title: "Explore" },
   { id: "4", url: "/", title: "Contact" },
 ];
