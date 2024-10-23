@@ -10,18 +10,20 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const HomePageTalkSection = () => {
   return (
-    <section className="my-20 mx-24">
+    <section className="my-10 md:my-20 mx-5 md:mx-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
-        <section className="grid grid-cols-1 gap-6">
+        
+        <section className="grid order-2 grid-cols-1 gap-4 md:order-none">
+          <div className="text-red-500 font-bold text-xl underline text-center md:text-left">Our Talks</div>
           <TalkSummaryCard {...TALK_SUMMARY_CARD_EXAMPLE} />
           <TalkSummaryCard {...TALK_SUMMARY_CARD_EXAMPLE} />
           <TalkSummaryCard {...TALK_SUMMARY_CARD_EXAMPLE} />
         </section>
-        <section>
-          <div className="actions flex items-center justify-end gap-4 mr-8 mb-4">
+        <section className="order-1 md:order-none">
+          <div className="actions flex items-center justify-center md:justify-end gap-4 mr-8 mb-4">
             <Link
               href="#"
-              className="text-red-500 font-semibold text-lg underline"
+              className="text-red-500 font-bold text-lg underline"
             >
               View All
             </Link>

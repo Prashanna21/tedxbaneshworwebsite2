@@ -31,7 +31,7 @@ const CallingSection = () => {
                         LET’S DISCOVER “IDEAS WORTH SPREADING”
                         </h3>
 
-                        <h4>
+                        <h4 className="text-white">
                         Applications Open from Date-Date
                         </h4>
 

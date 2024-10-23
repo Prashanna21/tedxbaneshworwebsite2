@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SpeakerCard from "./shared/speaker-card";
 import Link from "next/link";
 import { SpeakerCardListExammple } from "@/constants/example";
@@ -10,7 +10,28 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi"; // Importing ico
 export default function HomepageSpeakerList() {
   const title = `Meet Our **Speakers**`;
   const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const speakersToShow = 4; // Number of speakers to show at a time
+  const [speakersToShow, setSpeakersToShow] = useState<number>(4); // Default to 4 speakers
+
+  // Update the number of speakers to show based on screen size
+  useEffect(() => {
+    const updateSpeakersToShow = () => {
+      if (window.innerWidth < 640) {
+        setSpeakersToShow(2); // Show 1 card for small screens
+      } else {
+        setSpeakersToShow(4); // Show 4 cards for larger screens
+      }
+    };
+
+    // Run on initial render
+    updateSpeakersToShow();
+
+    // Add event listener to update on window resize
+    window.addEventListener('resize', updateSpeakersToShow);
+
+    return () => {
+      window.removeEventListener('resize', updateSpeakersToShow);
+    };
+  }, []);
 
   const visibleSpeakers = SpeakerCardListExammple.slice(currentIndex, currentIndex + speakersToShow);
 
@@ -28,12 +49,12 @@ export default function HomepageSpeakerList() {
 
   // TODO: remove overflow-hidden later
   return (
-    <section className="bg-dark-c1 px-32 py-20 overflow-hidden">
+    <section className="bg-dark-c1 px-1 md:px-32 py-20">
       <div className="flex flex-col items-center gap-8">
         <div className="section-title text-center text-white">
           <CustomMDReactComponent
             text={title}
-            className="speaker_list-title text-5xl font-bold text-white"
+            className="speaker_list-title text-4xl md:text-5xl font-bold text-white"
           />
           <p className="mt-4 text-md">
             Lorem ipsum dolor sit amet consectetur. Facilisi at nunc risus amet
@@ -44,7 +65,7 @@ export default function HomepageSpeakerList() {
         <div className="relative w-full flex items-center">
           {/* Left button */}
           <button
-            className={`absolute left-0 p-2 w-10 h-10 rounded-full bg-white text-black shadow-lg flex items-center justify-center bg-transparent
+            className={`absolute left-0 p-2 w-9 h-9 md:w-10 md:h-10 rounded-full bg-white text-black shadow-lg flex items-center justify-center bg-transparent
             ${currentIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
             onClick={handlePrev}
             disabled={currentIndex === 0}
@@ -52,7 +73,7 @@ export default function HomepageSpeakerList() {
             <FiChevronLeft className="w-6 text-black-c1 h-6" />
           </button>
 
-          <div className="flex justify-between gap-8 w-full overflow-hidden px-12">
+          <div className="flex justify-center sm:justify-between gap-4 md:gap-8 w-full overflow-hidden px-4 md:px-12">
             {visibleSpeakers.map((speaker, index) => (
               <SpeakerCard key={index} {...speaker} />
             ))}
@@ -60,7 +81,7 @@ export default function HomepageSpeakerList() {
 
           {/* Right button */}
           <button
-            className={`absolute right-0 p-2 w-10 h-10 rounded-full bg-white text-black shadow-lg flex items-center justify-center bg-transparent
+            className={`absolute right-0 p-2 w-9 h-9 md:w-10 md:h-10 rounded-full bg-white text-black shadow-lg flex items-center justify-center bg-transparent
             ${currentIndex >= SpeakerCardListExammple.length - speakersToShow ? 'opacity-50 cursor-not-allowed' : ''}`}
             onClick={handleNext}
             disabled={currentIndex >= SpeakerCardListExammple.length - speakersToShow}

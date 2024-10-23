@@ -5,7 +5,7 @@ import { SpeakerCardExampleData } from "@/constants/example";
 import HomePageTalkSection from "@/components/homepage-talk-section";
 import HomepageSpeakerList from "@/components/homepage-speaker-list";
 import SponserSection from "@/components/shared/sponser-section";
-
+import ContactSection from "@/components/contact-section";
 
 export default function Home() {
   return (
@@ -16,9 +16,8 @@ export default function Home() {
         <HomePageTalkSection />
         <HomepageSpeakerList />
       </section>
+      <ContactSection />
       <SponserSection />
-      <section className="min-h-[400px]">Other Section</section>
-
     </div>
   );
 }
