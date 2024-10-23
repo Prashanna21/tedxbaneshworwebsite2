@@ -63,7 +63,7 @@ export const PAYMENT_PARTNERS_LIST_EXAMPLE = [
 ];
 
 export const OTHER_LINKS_EXAMPLE = [
-  { id: "1", url: "#", title: "About Us" },
+  { id: "1", url: "/about-us", title: "About Us" },
   { id: "2", url: "#", title: "Highlights" },
   { id: "3", url: "/our-speaker", title: "Speakers" },
   { id: "4", url: "/our-team", title: "Our Teams" },
@@ -101,4 +101,25 @@ export const NAV_LINKS_EXAMPLE = [
   //     { title: "Option 2", url: "/explore/option2" },
   //   ],
   // },
+];
+
+export const GET_INVOLVED_APPLY_LIST = [
+  {
+    title: "Apply for Speaker",
+    desc: `Lorem ipsum dolor sit amet consectetur. Vitae sagittis ut mauris aliquet tortor. Im perdiet faucibus vitae scelerisque ut fau cibus.`,
+    imgSrc: `/get-involved-pics/speaker-apply-pic.jpeg`,
+    applyLink: `#`,
+  },
+  {
+    title: "Apply for Volunteer",
+    desc: `Lorem ipsum dolor sit amet consectetur. Vitae sagittis ut mauris aliquet tortor. Im perdiet faucibus vitae scelerisque ut fau cibus.`,
+    imgSrc: `/get-involved-pics/apply_volunteer.png`,
+    applyLink: `#`,
+  },
+  {
+    title: "Apply for Performer",
+    desc: `Lorem ipsum dolor sit amet consectetur. Vitae sagittis ut mauris aliquet tortor. Im perdiet faucibus vitae scelerisque ut fau cibus.`,
+    imgSrc: `/get-involved-pics/apply_performer.png`,
+    applyLink: `#`,
+  },
 ];
