@@ -7,7 +7,6 @@ import HomepageSpeakerList from "@/components/homepage-speaker-list";
 import SponserSection from "@/components/shared/sponser-section";
 import ContactSection from "@/components/contact-section";
 
-
 export default function Home() {
   return (
     <div>
@@ -17,7 +16,7 @@ export default function Home() {
         <HomePageTalkSection />
         <HomepageSpeakerList />
       </section>
-      <ContactSection/>
+      <ContactSection />
       <SponserSection />
     </div>
   );
