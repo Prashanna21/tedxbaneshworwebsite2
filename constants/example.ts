@@ -88,25 +88,17 @@ export const FOOTER_CONTACT_INFO_EXAMPLE = {
 };
 
 export const NAV_LINKS_EXAMPLE = [
-<<<<<<< HEAD
   { id: "1", url: "/", title: "Home" },
   { id: "2", url: "/about-us", title: "About" },
   { id: "3", url: "/", title: "Explore" },
   { id: "4", url: "/", title: "Contact" },
-=======
-  { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "Contact Us", url: "/contact-us" },
-  /* { id: 3, title: "Contact", url: "/contact" },
-  {
-    id: 4,
-    title: "Explore",
-    url: "/explore",
-    dropdown: [
-      { title: "Option 1", url: "/explore/option1" },
-      { title: "Option 2", url: "/explore/option2" },
-    ],
-  }, */
-
-
->>>>>>> a453c3f1879058352b1fa542c4d564b1920e04c3
+  // {
+  //   id: 4,
+  //   title: "Explore",
+  //   url: "/explore",
+  //   dropdown: [
+  //     { title: "Option 1", url: "/explore/option1" },
+  //     { title: "Option 2", url: "/explore/option2" },
+  //   ],
+  // },
 ];
