@@ -48,11 +48,10 @@ export const TALK_SUMMARY_CARD_EXAMPLE = {
 };
 
 export const TALK_BANNER_CARD_EXAMPLE = {
-  tag: `Shaping the Digital Landscape`,
+  tag: `Code For Future`,
   highlight: `**TEDx** Baneshowr 2023`,
   title: `Code for the Future`,
-  description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt voluptate
-        ratione.`,
+  description: `Shaping the Digital Landscape | Swikar Sharma | TEDxBaneshwor`,
 };
 
 export const PAYMENT_PARTNERS_LIST_EXAMPLE = [
@@ -90,7 +89,16 @@ export const FOOTER_CONTACT_INFO_EXAMPLE = {
 
 export const NAV_LINKS_EXAMPLE = [
   { id: "1", url: "/", title: "Home" },
-  { id: "2", url: "/", title: "About" },
+  { id: "2", url: "/about-us", title: "About" },
   { id: "3", url: "/", title: "Explore" },
   { id: "4", url: "/", title: "Contact" },
+  // {
+  //   id: 4,
+  //   title: "Explore",
+  //   url: "/explore",
+  //   dropdown: [
+  //     { title: "Option 1", url: "/explore/option1" },
+  //     { title: "Option 2", url: "/explore/option2" },
+  //   ],
+  // },
 ];
