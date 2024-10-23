@@ -65,8 +65,8 @@ export const PAYMENT_PARTNERS_LIST_EXAMPLE = [
 export const OTHER_LINKS_EXAMPLE = [
   { id: "1", url: "#", title: "About Us" },
   { id: "2", url: "#", title: "Highlights" },
-  { id: "3", url: "#", title: "Speakers" },
-  { id: "4", url: "#", title: "Our Teams" },
+  { id: "3", url: "/our-speaker", title: "Speakers" },
+  { id: "4", url: "/our-team", title: "Our Teams" },
   { id: "5", url: "#", title: "FAQ" },
 ];
 

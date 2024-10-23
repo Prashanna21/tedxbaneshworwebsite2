@@ -4,11 +4,11 @@ import React, { ReactNode } from "react";
 
 const PublicSideLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div>
+    <main>
       <Navbar />
-      {children}
+      <main className="w-full mt-[64px]">{children}</main>
       <Footer />
-    </div>
+    </main>
   );
 };
 
