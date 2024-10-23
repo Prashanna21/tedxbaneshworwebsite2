@@ -6,7 +6,6 @@ import HomePageTalkSection from "@/components/homepage-talk-section";
 import HomepageSpeakerList from "@/components/homepage-speaker-list";
 import SponserSection from "@/components/shared/sponser-section";
 import ContactSection from "@/components/contact-section";
-import SpeakerCarousel from "@/components/Speaker";
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <section className="lg_screen">
         <HomePageTalkSection />
         <HomepageSpeakerList />
-        <SpeakerCarousel />
       </section>
       <ContactSection />
       <SponserSection />
