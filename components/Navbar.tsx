@@ -91,7 +91,7 @@ const Navbar = () => {
             </div>
 
 
-            <Link href="/getinvolved">
+            <Link href="/get-involved">
               <Button className="bg-red-600 text-white px-4 py-2 rounded-3xl hover:bg-red-700">
                 Get Involved
               </Button>
@@ -177,7 +177,7 @@ const Navbar = () => {
                 </ul>
         </div>
 
-            <Link href="/getinvolved">
+            <Link href="/get-involved">
               <Button className="bg-red-600 text-white px-4 py-2 rounded-3xl hover:bg-red-700">
                 Get Involved
               </Button>
