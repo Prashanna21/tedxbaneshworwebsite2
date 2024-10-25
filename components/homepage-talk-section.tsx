@@ -10,7 +10,8 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const HomePageTalkSection = () => {
   return (
-    <section className="my-10 md:my-20 mx-5 md:mx-24">
+
+    <div className="my-10 md:my-20 mx-5 md:mx-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
         
         <section className="grid order-2 grid-cols-1 gap-4 md:order-none">
@@ -37,7 +38,7 @@ const HomePageTalkSection = () => {
           <TalkBanner {...TALK_BANNER_CARD_EXAMPLE} />
         </section>
       </div>
-    </section>
+    </div>
   );
 };
 

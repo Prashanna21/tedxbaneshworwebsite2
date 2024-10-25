@@ -35,7 +35,7 @@ const Navbar = () => {
               <NavLink key={navLink.id} {...navLink} />
             ))}
 
-            {/* <div
+            <div
               className="relative min-h-16 items-center flex"
               onMouseEnter={() => setExploreDropdownActive(true)}
               onMouseLeave={() => setExploreDropdownActive(false)}
@@ -98,7 +98,7 @@ const Navbar = () => {
                   <Link href={"/our-team"}>About Our Team</Link>
                 </li>
               </ul>
-            </div> */}
+            </div>
 
             <Link href="/get-involved">
               <Button className="bg-red-600 text-white px-4 py-2 rounded-3xl hover:bg-red-700">
