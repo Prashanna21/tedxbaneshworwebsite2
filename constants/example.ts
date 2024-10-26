@@ -13,9 +13,9 @@ export const SpeakerCardListExammple: TSpeakerCardProps[] = [
     position: "CA And Content Creator",
   },
   {
-    imageSrc: `/png/dummy_person2.png`,
-    name: "John Doe",
-    position: "CTO, Ipsum",
+    imageSrc: `/speakers-pic/Sudip-Tedx-Baneshwor-TedxBaneshwor.png`,
+    name: "Sudip Bhai Subedi",
+    position: "Content Creator (IDS)",
   },
   {
     imageSrc: `/png/dummy_person3.png`,

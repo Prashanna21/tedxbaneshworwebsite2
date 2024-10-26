@@ -127,7 +127,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
+        className={`bg-[#020617]  md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
           isMenuClicked ? "max-h-100 opacity-100" : "max-h-0 opacity-0"
         }`}
       >

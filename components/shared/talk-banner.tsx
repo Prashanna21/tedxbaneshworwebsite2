@@ -11,34 +11,36 @@ const TalkBanner = ({
   description,
 }: TTalkBannerProps) => {
   return (
-    <div className="cursor-pointer flex flex-col gap-2 max-w-[700px] ">
-      <Image
-        alt="talk"
-        width={555}
-        height={330}
-        className="md:h-[330px] rounded mx-auto md:mx-0"
-        src={`/speaker-talk-pic/Swikar_talk.jpeg`}
-        
-      />
-      <div className="hidden md:flex gap-3 justify-center md:justify-normal md:gap-1  text-[22px] md:text-xl items-center">
-        <CustomMDReactComponent
-          className=" talk_banner-highlight font-semibold"
-          text={highlight}
+    <a href="https://www.youtube.com/watch?v=y8uPaaRlTYg&pp=ygUNdGVkeCBiYW5lc2h3bw%3D%3D" target="_blank" rel="noopener noreferrer">
+        <div className="cursor-pointer flex flex-col gap-2 max-w-[700px] ">
+        <Image
+          alt="talk"
+          width={555}
+          height={330}
+          className="md:h-[330px] rounded mx-auto md:mx-0"
+          src={`/speaker-talk-pic/Swikar_talk.jpeg`}
+          
         />
-        <p className="font-medium text-[22px] md:text-xl leading-6 text-gray-900">
+        <div className="hidden md:flex gap-3 justify-center md:justify-normal md:gap-1  text-[22px] md:text-xl items-center">
+          <CustomMDReactComponent
+            className=" talk_banner-highlight font-semibold"
+            text={highlight}
+          />
+          <p className="font-medium text-[22px] md:text-xl leading-6 text-gray-900">
+            <span className="text-red-500">"</span>
+            {title}
+            <span className="text-red-500">"</span>
+          </p>
+        </div>
+        <p className="text-center md:text-left font-bold text-[20px] md:text-xl leading-6 text-gray-900">
           <span className="text-red-500">"</span>
-          {title}
+          {tag}
           <span className="text-red-500">"</span>
         </p>
+        <p className="text-center md:text-left font-medium md:text-lg leading-6">{description}</p>
+        <Separator className="mx-auto md:mx-0 w-2/4 md:w-1/4 h-[2px] bg-red-500" />
       </div>
-      <p className="text-center md:text-left font-bold text-[20px] md:text-xl leading-6 text-gray-900">
-        <span className="text-red-500">"</span>
-        {tag}
-        <span className="text-red-500">"</span>
-      </p>
-      <p className="text-center md:text-left font-medium md:text-lg leading-6">{description}</p>
-      <Separator className="mx-auto md:mx-0 w-2/4 md:w-1/4 h-[2px] bg-red-500" />
-    </div>
+    </a>
   );
 };
 

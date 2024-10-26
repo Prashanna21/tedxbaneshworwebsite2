@@ -10,14 +10,8 @@ const SponserSection = () => {
 
             <div className="flex gap-5 flex-wrap justify-center">
                 
-                <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
-                    <Image
-                        src="/partners/esewa.png"
-                        alt="Sponsor Logo"
-                        fill = {true}
-                        sizes=""
-                        className="rounded"
-                    />
+                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
+                    Sponsor
                 </div>
 
                 {/* Placeholder sponsor */}
@@ -31,12 +25,30 @@ const SponserSection = () => {
             </div>
 
             <div className="flex gap-5 flex-wrap justify-center">
-                {/* More Sponsor divs */}
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
+                 <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/tedxbaneshwor-partner-vaca.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
                 </div>
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
+
+                <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/tedxbaneshwor-partner-edusanjal.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
                 </div>
                 <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
                     Sponsor
