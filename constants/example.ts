@@ -8,9 +8,9 @@ export const SpeakerCardExampleData: TSpeakerCardProps = {
 
 export const SpeakerCardListExammple: TSpeakerCardProps[] = [
   {
-    imageSrc: `/png/dummy_person.png`,
-    name: "Shyan Jane",
-    position: "CEO, Lorem",
+    imageSrc: `/speakers-pic/Anupama-Tedx-Baneshwor-TedxBaneshwor.jpeg`,
+    name: "Anupama Sangraula",
+    position: "CA And Content Creator",
   },
   {
     imageSrc: `/png/dummy_person2.png`,

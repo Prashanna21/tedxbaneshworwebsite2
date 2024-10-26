@@ -14,8 +14,9 @@ export default function Home() {
       <CallingSection />
       <section className="lg_screen">
         <HomePageTalkSection />
-        <HomepageSpeakerList />
+        
       </section>
+      <HomepageSpeakerList />
       <ContactSection />
       <SponserSection />
     </div>

@@ -6,12 +6,10 @@ import emailjs from "@emailjs/browser";
 
 const ContactSection: React.FC = () => {
   const form = useRef<HTMLFormElement | null>(null);
-
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-
     if (!form.current) return;
-
+    
     const formData = new FormData(form.current);
     const data = {
       from_fname: formData.get("from_fname"),
@@ -21,10 +19,15 @@ const ContactSection: React.FC = () => {
       message: formData.get("message"),
     };
 
-    
+    const formKey = process.env.NEXT_PUBLIC_EMAIL_JS_FORM_KEY;
+    const publicKey = process.env.NEXT_PUBLIC_EMAIL_JS_API_KEY;
+    if (!formKey || !publicKey) {
+      console.error("Missing EMAIL_JS_FORM_KEY environment variable.");
+      return;
+    }
 
     emailjs
-      .sendForm("service_ulswr6e", "template_l83t1hp", form.current, {
+      .sendForm(formKey, "template_l83t1hp", form.current, {
         publicKey: "fY9eKKFn37ow5dhFC",
       })
       .then(

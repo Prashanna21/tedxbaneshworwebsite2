@@ -49,7 +49,7 @@ export default function HomepageSpeakerList() {
 
   // TODO: remove overflow-hidden later
   return (
-    <section className="bg-dark-c1 px-1 md:px-32 py-20">
+    <section className=" bg-dark-c1 px-1 md:px-32 py-20">
       <div className="flex flex-col items-center gap-8">
         <div className="section-title text-center text-white">
           <CustomMDReactComponent
@@ -65,12 +65,12 @@ export default function HomepageSpeakerList() {
         <div className="relative w-full flex items-center">
           {/* Left button */}
           <button
-            className={`absolute left-0 p-2 w-9 h-9 md:w-10 md:h-10 rounded-full bg-white text-black shadow-lg flex items-center justify-center bg-transparent
+            className={`absolute z-40 left-0 p-2 w-9 h-9 md:w-10 md:h-10 rounded-full bg-white text-black shadow-lg flex items-center justify-center bg-transparent
             ${currentIndex === 0 ? 'opacity-50 cursor-not-allowed' : ''}`}
             onClick={handlePrev}
             disabled={currentIndex === 0}
           >
-            <FiChevronLeft className="w-6 text-black-c1 h-6" />
+            <FiChevronLeft className="w-6 text-black-c1 h-6 z-100" />
           </button>
 
           <div className="flex justify-center sm:justify-between gap-4 md:gap-8 w-full overflow-hidden px-4 md:px-12">
@@ -90,7 +90,7 @@ export default function HomepageSpeakerList() {
           </button>
         </div>
         <Link
-          href="/speakers"
+          href="/our-speaker"
           className="text-red-500 font-semibold text-lg underline"
         >
           View All
