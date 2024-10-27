@@ -10,6 +10,10 @@ const PaymentPartners = () => {
     <div className="flex flex-col gap-2">
       <TitleHighlighted title={Title} />
       <div className="flex items-center gap-4 flex-wrap lg:flex-nowrap">
+
+        
+        {/* 
+        No Payment Partner For now
         {PAYMENT_PARTNERS_LIST_EXAMPLE?.map((partner) => (
           <Image
             key={partner.id}
@@ -19,7 +23,7 @@ const PaymentPartners = () => {
             height={50}
             className="object-cover rounded-lg h-[50px]"
           />
-        ))}
+        ))} */}
       </div>
     </div>
   );
