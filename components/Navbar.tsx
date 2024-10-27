@@ -90,13 +90,16 @@ const Navbar = () => {
                     : "opacity-0 -translate-y-4 invisible"
                 }`}
               >
+              <Link href={"/about-tedx"}>
                 <li className="px-4 py-2 hover:bg-[#c15151] cursor-pointer">
-                  <Link href={"/about-tedx"}>About Tedx</Link>
+                  About Tedx
                 </li>
-
+              </Link>
+              <Link href={"/our-team"}>
                 <li className="px-4 py-2 hover:bg-[#c15151] cursor-pointer">
-                  <Link href={"/our-team"}>About Our Team</Link>
+                 About Our Team
                 </li>
+              </Link>
               </ul>
             </div>
 

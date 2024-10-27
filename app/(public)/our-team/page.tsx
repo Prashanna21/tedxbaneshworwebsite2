@@ -1,6 +1,7 @@
+import OurTeamHeroSection from "@/components/our-team-hero-section";
 import TitleHighlighted from "@/components/shared/highligted-title";
 import SpeakerCard from "@/components/shared/speaker-card";
-import { SpeakerCardListExammple } from "@/constants/example";
+import { SpeakerCardListExammple, TeamCardList } from "@/constants/example";
 import Image from "next/image";
 import React from "react";
 
@@ -11,8 +12,10 @@ const OurTeamRoute = () => {
 
   return (
     <main>
+      <OurTeamHeroSection />
+
       <section>
-        <div className="flex gap-6 max-w-[1440px] mx-auto py-10 px-4">
+        <div className="flex gap-6 flex-col md:flex-row max-w-[1440px] mx-auto py-10 px-4">
           <div className="flex flex-col gap-4 ">
             <TitleHighlighted title={heroTitle} />
             <p>
@@ -46,7 +49,7 @@ const OurTeamRoute = () => {
             blanditiis cupiditate dolorem alias!
           </p>
           <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {SpeakerCardListExammple?.map((item) => (
+            {TeamCardList?.map((item) => (
               <SpeakerCard key={item.name} {...item} />
             ))}
           </div>
@@ -62,7 +65,7 @@ const OurTeamRoute = () => {
             blanditiis cupiditate dolorem alias!
           </p>
           <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {SpeakerCardListExammple?.map((item) => (
+            {TeamCardList?.map((item) => (
               <SpeakerCard key={item.name} {...item} />
             ))}
           </div>

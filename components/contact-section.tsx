@@ -50,9 +50,7 @@ const ContactSection: React.FC = () => {
             Let's Stay In Touch!
           </h3>
           <p className="mt-4 mb-6 text-sm text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A corporis
-            sit sed maiores, tempore optio expedita, animi tempora iste non fugit
-            odit reprehenderit, qui eos fuga vero reiciendis. Natus, cumque?
+          Interested in partnering with us? Connect with us to explore sponsorship opportunities and join us in creating an impactful event. Fill out the form, and let’s discover a world of learning together!
           </p>
         </div>
 

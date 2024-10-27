@@ -8,16 +8,18 @@ const SpeakerCard = ({ name, position, imageSrc }: TSpeakerCardProps) => {
    
 
     <div className="min-h-[307px]">
-      <div className="relative h-[150px] w-[150px] z-0  md:w-[200px] md:h-[200px]">
-        <Image alt="speaker" src={imageSrc} fill style={{
+      <div className="relative h-[150px] w-[160px] z-0  md:w-[200px] md:h-[200px]">
+        <Image alt="speaker" src={imageSrc} fill 
+        sizes="(max-width: 768px) 150px, 200px" 
+        style={{
           objectFit: "cover",
           borderRadius: "5px"
         }} />
       </div>
 
-      <div className="bg-red-500 mt-[-4px] rounded-5 text-white flex flex-col justify-center text-center h-[95px] px-2 w-[150px] md:w-[200px]">
+      <div className="bg-red-500 mt-[-4px] rounded-5 text-white flex flex-col justify-center text-center h-[150px] md:h-[95px] px-2 w-[160px] md:w-[200px]">
         <h6 className="font-bold text-md">{name}</h6>
-        <p className="font-medium text-[15px]">{position}</p>
+        <p className="font-medium text-[15px] text-wrap">{position}</p>
       </div>
       
     </div>

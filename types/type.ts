@@ -7,6 +7,8 @@ export type THeroDetails = {
 export type TTalkSummaryCard = {
   src: string;
   title: string;
+  desc: string;
+  link: string;
 };
 
 export type TSpeakerCardProps = {

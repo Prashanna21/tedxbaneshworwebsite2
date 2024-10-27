@@ -16,9 +16,11 @@ const HomePageTalkSection = () => {
         
         <section className="grid order-2 grid-cols-1 gap-4 md:order-none">
           <div className="text-red-500 font-bold text-xl underline text-center md:text-left">Our Talks</div>
-          <TalkSummaryCard {...TALK_SUMMARY_CARD_EXAMPLE} />
-          <TalkSummaryCard {...TALK_SUMMARY_CARD_EXAMPLE} />
-          <TalkSummaryCard {...TALK_SUMMARY_CARD_EXAMPLE} />
+
+          {TALK_SUMMARY_CARD_EXAMPLE.map((talk, index) => 
+                      <TalkSummaryCard key={index} {...talk} />
+                    )}
+                    
         </section>
         <section className="order-1 md:order-none">
           <div className="actions flex items-center justify-center md:justify-end gap-4 mr-8 mb-4">

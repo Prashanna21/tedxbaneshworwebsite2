@@ -28,10 +28,7 @@ const Footer = () => {
               className="ml-2"
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-              aliquid cumque repellendus similique doloremque alias dignissimos,
-              delectus itaque voluptate error doloribus, iusto sequi. Vero
-              facilis quos, et enim minus ut!
+            TEDx Baneshwor is an independently organized TED event and part of the global TEDx program. It allows local communities to experience the spirit of TED’s mission of 'ideas worth spreading' through self-organized events that bring people together to share a TED-like experience.
             </p>
             <div className="flex gap-4">
               {SOCIAL_LINKS_EXAMPLE?.map((socialLink) => (

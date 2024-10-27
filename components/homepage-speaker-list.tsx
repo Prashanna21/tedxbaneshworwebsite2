@@ -57,9 +57,7 @@ export default function HomepageSpeakerList() {
             className="speaker_list-title text-4xl md:text-5xl font-bold text-white"
           />
           <p className="mt-4 text-md">
-            Lorem ipsum dolor sit amet consectetur. Facilisi at nunc risus amet
-            praesent. Egestas elit interdum sem odio purus. Sed duis nunc vel
-            libero morbi nulla senectus ac.
+          Experts from diverse fields sharing insights to inspire and ignite meaningful discussions at Tedx Baneshwor 2nd Edition.
           </p>
         </div>
         <div className="relative w-full flex items-center">
