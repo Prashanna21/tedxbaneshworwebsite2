@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type THeroDetails = {
   title: string;
   image: string;
@@ -36,3 +38,11 @@ export type TSocialLink = {
   url: string;
   type: TSocialLinkTypes;
 };
+
+export type TInfoBox = {
+  title : ReactNode;
+  desc : ReactNode;
+  imgSrc : string;
+  rowRev: boolean;
+  bgColor: string;
+}

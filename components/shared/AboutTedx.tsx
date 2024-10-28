@@ -4,15 +4,12 @@ import Image from 'next/image';
 const AboutTedx: React.FC = () => {
   return (
     <section className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-
-
-
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
         <div className="text-gray-700">
           <div className="md:col-span-2 mt-8">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-black-c1">
-              About <span className="text-red-800">TEDx</span>
+              About <span className="text-red-500">TEDx</span>
             </h2>
           </div>
           <p className="mb-4">

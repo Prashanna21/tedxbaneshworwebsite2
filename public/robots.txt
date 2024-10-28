@@ -1,0 +1,6 @@
+# Allow all crawlers full access
+User-agent: *
+Disallow:
+
+# Specify the location of your sitemap for better crawling
+Sitemap: https://tedxbaneshwor.com/sitemap.xml
