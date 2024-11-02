@@ -1,47 +1,40 @@
 import OurTeamHeroSection from "@/components/our-team-hero-section";
 import TitleHighlighted from "@/components/shared/highligted-title";
+import InfoBox from "@/components/shared/InfoBox";
 import SpeakerCard from "@/components/shared/speaker-card";
 import { SpeakerCardListExammple, TeamCardList } from "@/constants/example";
 import Image from "next/image";
 import React from "react";
 
 const OurTeamRoute = () => {
-  const heroTitle = `Our **Story**`;
-  const leadershipTitle = `Meet Our **Leadership** Team`;
-  const developerTitle = `Meet Our **Developer** Team`;
 
   return (
     <main>
       <OurTeamHeroSection />
 
-      <section>
-        <div className="flex gap-6 flex-col md:flex-row max-w-[1440px] mx-auto py-10 px-4">
-          <div className="flex flex-col gap-4 ">
-            <TitleHighlighted title={heroTitle} />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-              optio tempora harum, deserunt magni, et at exercitationem tempore
-              quaerat eum illum, voluptatibus veniam dignissimos delectus
-              obcaecati blanditiis cupiditate dolorem alias!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              deleniti enim voluptas sit fugit a odio laudantium ad ea,
-              inventore cum delectus exercitationem temporibus. Labore quis
-              necessitatibus quaerat. Dignissimos, animi.
-            </p>
+      <InfoBox 
+        title = {<div className="md:col-span-2 mt-1">
+          <h2 className="text-2xl md:text-3xl font-bold  mb-1 md:mb-6 text-black-c1">
+            Our <span className="text-red-500">Story</span>
+          </h2>
+        </div>} 
+        imgSrc="/speaker-talk-pic/Rahbar-Ansari-TedxBaneshwor.jpg" 
+        desc = {<div>
+          <p className="mb-5">TEDx Baneshwor is an independently organized TED event and part of the global TEDx program. It allows local communities to experience the spirit of TED’s mission of 'ideas worth spreading' through self-organized events that bring people together to share a TED-like experience.</p>
+          <p>
+          TEDx Baneshwor serves as a platform for thought leaders, innovators, and changemakers from various fields to showcase their stories, research, and insights.
+          </p>
           </div>
-          <Image
-            alt="banner"
-            width={555}
-            height={330}
-            src={`/about/tedx.png`}
-          />
-        </div>
-      </section>
+        } 
+        rowRev  = {false}
+        bgColor="#F4F5FF"
+      
+      />
+
+
       <section className="bg-dark-c1 py-12">
-        <div className="flex flex-col items-center gap-6 max-w-[1300px] mx-auto px-4">
-          <TitleHighlighted title={leadershipTitle} className="text-white" />
+        <div className="flex flex-col items-center gap-6 max-w-[1100px] mx-auto px-4">
+          <h2 className="text-4xl font-bold text-white"> Meet Our <span className="text-red-500">Leadership</span> Team </h2>
           <p className="text-white text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit optio
             tempora harum, deserunt magni, et at exercitationem tempore quaerat
@@ -56,8 +49,8 @@ const OurTeamRoute = () => {
         </div>
       </section>
       <section className="py-12">
-        <div className="flex flex-col items-center gap-6 max-w-[1300px] mx-auto px-4">
-          <TitleHighlighted title={developerTitle} />
+        <div className="flex flex-col items-center gap-6 max-w-[1100px] mx-auto px-4">
+        <h2 className="text-4xl font-bold text-black-c1"> Meet Our <span className="text-red-500">Developer</span> Team </h2>
           <p className="text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit optio
             tempora harum, deserunt magni, et at exercitationem tempore quaerat

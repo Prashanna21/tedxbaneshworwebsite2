@@ -4,7 +4,7 @@ const AboutHero: React.FC = () => {
   return (
     <div>
       <section
-        className="relative w-full h-[400px] md:h-[600px] bg-black bg-cover bg-center"
+        className="relative w-full h-[400px] md:h-screen bg-black bg-cover bg-center"
         style={{
           backgroundImage: 'url("/about/aboutus.jpeg")',
         }}
