@@ -24,6 +24,8 @@ export type TTalkBannerProps = {
   highlight: string;
   title: string;
   description: string;
+  imgSrc: string;
+  ytLink: string;
 };
 
 export type TSocialLinkTypes =

@@ -4,7 +4,7 @@ import React from "react";
 
 const TalkSummaryCard = ({ src, title , desc, link}: TTalkSummaryCard) => {
   return (
-    <a href={link} target="_blank">
+    <a href={link} target="_blank" className="p-0 md:p-3 rounded-lg hover:bg-gray-200">
       <div className="flex flex-col md:flex-row cursor-pointer md:gap-6 justify-start items-start">
       <div className="relative min-w-[210px] min-h-[145px]">
         <div className="absolute top-2 left-2">

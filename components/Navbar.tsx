@@ -64,11 +64,11 @@ const Navbar = () => {
                 }`}
               >
                 <li className="px-4 py-2 hover:bg-[#c15151] cursor-pointer">
-                  <Link href={"/first-edition"}>Tedx First Editon</Link>
+                  <Link href={"/explore/first-edition"}>Tedx First Editon</Link>
                 </li>
 
                 <li className="px-4 py-2 hover:bg-[#c15151] cursor-pointer">
-                  <Link href={"/second-edition"}>Tedx Second Editon</Link>
+                  <Link href={"/explore/second-edition"}>Tedx Second Editon</Link>
                 </li>
               </ul>
             </div>
@@ -167,11 +167,11 @@ const Navbar = () => {
                 }`}
               >
                 <li className=" py-2 text-sm  cursor-pointer" onClick={closeMenu}>
-                  <Link href={"/tedx-first"}>Tedx First Edition</Link>
+                  <Link href={"/explore/first-edition"}>Tedx First Edition</Link>
                 </li>
 
                 <li className="py-2 text-sm cursor-pointer" onClick={closeMenu}>
-                  <Link href={"/tedx-second"}>Text Second Edition</Link>
+                  <Link href={"/explore/second-edition"}>Text Second Edition</Link>
                 </li>
               </ul>
             </div>

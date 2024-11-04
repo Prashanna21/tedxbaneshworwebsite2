@@ -9,16 +9,18 @@ const TalkBanner = ({
   highlight,
   title,
   description,
+  imgSrc,
+  ytLink,
 }: TTalkBannerProps) => {
   return (
-    <a href="https://www.youtube.com/watch?v=y8uPaaRlTYg&pp=ygUNdGVkeCBiYW5lc2h3bw%3D%3D" target="_blank" rel="noopener noreferrer">
-        <div className="cursor-pointer flex flex-col gap-2 max-w-[700px] ">
+    <a href={ytLink} target="_blank" rel="noopener noreferrer">
+        <div className="cursor-pointer flex flex-col gap-2 max-w-[555px] ">
         <Image
           alt="talk"
           width={555}
           height={330}
           className="md:h-[330px] rounded mx-auto md:mx-0"
-          src={`/speaker-talk-pic/Swikar_talk.jpeg`}
+          src={imgSrc}
           
         />
         <div className="hidden md:flex gap-3 justify-center md:justify-normal md:gap-1  text-[22px] md:text-xl items-center">

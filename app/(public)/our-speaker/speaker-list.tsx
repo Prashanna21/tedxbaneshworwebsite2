@@ -8,8 +8,8 @@ const SpeakerList = () => {
 
   return (
     <div className="flex flex-col items-center gap-16 my-12 p-4">
-      <div className="flex max-w-[1440px] flex-col items-center">
-        <TitleHighlighted title={title} />
+      <div className="flex max-w-[1100px] flex-col items-center gap-3">
+      <h2 className="text-4xl font-bold text-black-c1"> Our <span className="text-red-500">Speakers</span> </h2>
         <p className="text-center">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
           ducimus non atque esse, voluptates deleniti cupiditate dolor illum

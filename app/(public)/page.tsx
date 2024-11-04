@@ -1,7 +1,6 @@
 import SpeakerCard from "@/components/shared/speaker-card";
 import HeroSection from "../../components/shared/hero-section";
 import CallingSection from "../../components/shared/calling-section";
-import { SpeakerCardExampleData } from "@/constants/example";
 import HomePageTalkSection from "@/components/homepage-talk-section";
 import HomepageSpeakerList from "@/components/homepage-speaker-list";
 import SponserSection from "@/components/shared/sponser-section";

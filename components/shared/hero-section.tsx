@@ -2,6 +2,7 @@ import { getHeroDetails } from "@/actions/homepage";
 import CustomMDReactComponent from "@/provider/CustomMdComponent";
 import React from "react";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const HeroSection: React.FC = async () => {
   const heroDetails = await getHeroDetails();
@@ -26,9 +27,11 @@ const HeroSection: React.FC = async () => {
           text={tag}
         />
         <div className="flex flex-row md:flex-row gap-6 md:gap-4 md:space-x-4">
-          <Button variant="destructive" className="font-bold text-lg py-6 px-4 md:py-8 md:text-xl md:px-6">
-            Explore More
-          </Button>
+        <Link href="/about-tedx">
+              <Button variant="destructive" className="font-bold text-lg py-6 px-4 md:py-8 md:text-xl md:px-6">
+                Explore More
+              </Button> 
+          </Link>
           <Button className="font-bold text-lg py-6 px-4 md:py-8 md:px-6 md:text-xl" variant="secondary">
             Buy Tickets
           </Button>

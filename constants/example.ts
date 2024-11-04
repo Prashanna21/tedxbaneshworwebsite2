@@ -1,10 +1,5 @@
 import { TSocialLink, TSpeakerCardProps } from "@/types/type";
 
-export const SpeakerCardExampleData: TSpeakerCardProps = {
-  imageSrc: `/png/dummy_person.png`,
-  name: "Shyan Jane",
-  position: "CEO, Lorem",
-};
 
 export const SpeakerCardListExammple: TSpeakerCardProps[] = [
   {
@@ -125,12 +120,35 @@ export const TALK_SUMMARY_CARD_EXAMPLE = [
   
   ]
 
-export const TALK_BANNER_CARD_EXAMPLE = {
-  tag: `Code For Future`,
-  highlight: `**TEDx** Baneshowr 2023`,
-  title: `Code for the Future`,
-  description: `Shaping the Digital Landscape | Swikar Sharma | TEDxBaneshwor`,
-};
+export const TALK_BANNER_CARD_EXAMPLE = [
+    { 
+      tag: `Code For Future`,
+      highlight: `**TEDx** Baneshowr 2023`,
+      title: `Code for the Future`,
+      description: `Shaping the Digital Landscape | Swikar Sharma | TEDxBaneshwor`,
+      imgSrc : `/speaker-talk-pic/Swikar_talk.jpeg`,
+      ytLink: 'https://youtu.be/y8uPaaRlTYg?si=kyXUiw9gveZOr5aG',
+    },
+
+    { 
+      tag: `Empowering Youth`,
+      highlight: `**TEDx** Baneshowr 2023`,
+      title: `Leadership`,
+      description: `Through Non-profit Leadership and SDG Advocacy | Prajwal Bhattarai | TEDxBaneshwor`,
+      imgSrc : `/speaker-talk-pic/Prajwal-TedxBaneshwor.JPG`,
+      ytLink: 'https://www.youtube.com/watch?v=68FGPlpKFNg'
+    },
+
+    { 
+      tag: `Sustainable Blood Service`,
+      highlight: `**TEDx** Baneshowr 2023`,
+      title: `Service`,
+      description: `Ethical & Practical Considerations | Manita Rajkarnikar | TEDxBaneshwor`,
+      imgSrc : `/speaker-talk-pic/Mainta-TedxBaneshwor.jpg`,
+      ytLink: 'https://www.youtube.com/watch?v=mCom4EbO28g'
+    },
+    
+];
 
 export const PAYMENT_PARTNERS_LIST_EXAMPLE = [
   // { id: "esewa", src: `/partners/esewa.png` },
