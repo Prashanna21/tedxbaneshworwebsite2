@@ -98,7 +98,7 @@ export const HERO_DETAILS = {
 
 export const TALK_SUMMARY_CARD_EXAMPLE = [
   {
-    src: `/speaker-talk-pic/Rahbar-Ansari-TedxBaneshwor.jpg`,
+    src: `/speaker-talk-pic/Rahbar-Ansari-TedxBaneshwor.webp`,
     title: `Youth Participation in Political Leadership | Rahbar Ansari | TEDxBaneshwor`,
     desc : `This talk encourages youth to break barriers, challenge the status quo, and become influential leaders. This talk is a must-watch for anyone interested in change and the empowerment of the youth.`,
     link : `https://www.youtube.com/watch?v=ktD75byTpKQ&t`,
@@ -110,7 +110,7 @@ export const TALK_SUMMARY_CARD_EXAMPLE = [
     link : `https://www.youtube.com/watch?v=f3fXe4AlYqs`,
   },
   {
-    src: `/speaker-talk-pic/Abdus-TedxBaneshwor.jpg`,
+    src: `/speaker-talk-pic/Abdus-TedxBaneshwor.webp`,
     title: `Youths In Politics: Redefining Leadership and Shaping the Future | Abdus Miya | TEDxBaneshwor`,
     desc : `In this gripping film, we explore the revolutionary effects of young people in politics by highlighting their bold efforts to question established wisdom and influence the course of government.`,
     link : `https://www.youtube.com/watch?v=Xu_5olN7tx0`,
@@ -126,7 +126,7 @@ export const TALK_BANNER_CARD_EXAMPLE = [
       highlight: `**TEDx** Baneshowr 2023`,
       title: `Code for the Future`,
       description: `Shaping the Digital Landscape | Swikar Sharma | TEDxBaneshwor`,
-      imgSrc : `/speaker-talk-pic/Swikar_talk.jpeg`,
+      imgSrc : `/speaker-talk-pic/Swikar_talk.webp`,
       ytLink: 'https://youtu.be/y8uPaaRlTYg?si=kyXUiw9gveZOr5aG',
     },
 
@@ -135,7 +135,7 @@ export const TALK_BANNER_CARD_EXAMPLE = [
       highlight: `**TEDx** Baneshowr 2023`,
       title: `Leadership`,
       description: `Through Non-profit Leadership and SDG Advocacy | Prajwal Bhattarai | TEDxBaneshwor`,
-      imgSrc : `/speaker-talk-pic/Prajwal-TedxBaneshwor.JPG`,
+      imgSrc : `/speaker-talk-pic/Prajwal-TedxBaneshwor.webp`,
       ytLink: 'https://www.youtube.com/watch?v=68FGPlpKFNg'
     },
 
@@ -144,7 +144,7 @@ export const TALK_BANNER_CARD_EXAMPLE = [
       highlight: `**TEDx** Baneshowr 2023`,
       title: `Service`,
       description: `Ethical & Practical Considerations | Manita Rajkarnikar | TEDxBaneshwor`,
-      imgSrc : `/speaker-talk-pic/Mainta-TedxBaneshwor.jpg`,
+      imgSrc : `/speaker-talk-pic/Mainta-TedxBaneshwor.webp`,
       ytLink: 'https://www.youtube.com/watch?v=mCom4EbO28g'
     },
     
