@@ -11,6 +11,7 @@ const TalkSummaryCard = ({ src, title , desc, link}: TTalkSummaryCard) => {
           <Image
             width={50}
             height={50}
+            sizes="50px"
             alt="logo"
             src={`/logos/tedx_full.png`}
           />
@@ -19,6 +20,7 @@ const TalkSummaryCard = ({ src, title , desc, link}: TTalkSummaryCard) => {
           width={210}
           height={145}
           alt="speaker"
+           sizes="150px"
           src={src}
           style={{
             objectFit: "cover"
