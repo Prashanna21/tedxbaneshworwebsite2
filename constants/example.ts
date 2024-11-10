@@ -104,7 +104,7 @@ export const TALK_SUMMARY_CARD_EXAMPLE = [
     link : `https://www.youtube.com/watch?v=ktD75byTpKQ&t`,
   },
   {
-    src: `/speaker-talk-pic/Sabin-TedxBaneshwor.jpg`,
+    src: `/speaker-talk-pic/Sabin-TedxBaneshwor.webp`,
     title: `How youth activists create hope for our future | Sabin Lamichhane | TEDxBaneshwor`,
     desc : `Learn how young people with a love for leading are bringing about change, inspiring hope, and equipping the future generation to lead with intention and vision.`,
     link : `https://www.youtube.com/watch?v=f3fXe4AlYqs`,
