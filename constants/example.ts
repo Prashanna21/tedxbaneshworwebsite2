@@ -36,6 +36,90 @@ export const SpeakerCardListExammple: TSpeakerCardProps[] = [
 ];
 
 
+export const FirstEditionSpeakerList: TSpeakerCardProps[] = [
+    {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Radhika Regmi",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Sunil Babu Pant",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Hon. Rahbar Ansari",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Dr. Manita Rajkarnikar",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Manoj Gyawali",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Sabin Lamichhane",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Prajwal Bhattarai",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Shreeya Giri",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Abdus Miya",
+      position: "?",
+  },
+  {
+      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+      name: "Swikar Sharma",
+      position: "?",
+  },
+];
+
+export const FirstEditionPerformers: TSpeakerCardProps[] = [
+  {
+    imageSrc: "/speakers-pic/Mystery-TedxBaneshwor.jpg",
+    name: "Namuna Giri",
+    position: "?",
+  },
+  {
+    imageSrc: "/speakers-pic/Mystery-TedxBaneshwor.jpg",
+    name: "Nathan Rayan",
+    position: "?",
+  },
+  {
+    imageSrc: "/speakers-pic/Mystery-TedxBaneshwor.jpg",
+    name: "Yaju Acharaya",
+    position: "?",
+  },
+  {
+    imageSrc: "/speakers-pic/Mystery-TedxBaneshwor.jpg",
+    name: "Rinchen Lama",
+    position: "?",
+  },
+  {
+    imageSrc: "/speakers-pic/Mystery-TedxBaneshwor.jpg",
+    name: "Ramesh Shrestha",
+    position: "?",
+  },
+
+
+  ]
+
+
 export const TeamCardList: TSpeakerCardProps[] = [
   {
     imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
