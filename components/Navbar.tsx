@@ -63,13 +63,16 @@ const Navbar = () => {
                     : "opacity-0 -translate-y-4 invisible"
                 }`}
               >
+              <Link href={"/explore/first-edition"}>
                 <li className="px-4 py-2 hover:bg-[#c15151] cursor-pointer">
-                  <Link href={"/explore/first-edition"}>Tedx First Editon</Link>
+                  Tedx First Editon
                 </li>
-
+              </Link>
+              <Link href={"/explore/second-edition"}>
                 <li className="px-4 py-2 hover:bg-[#c15151] cursor-pointer">
-                  <Link href={"/explore/second-edition"}>Tedx Second Editon</Link>
+                 Tedx Second Editon
                 </li>
+                </Link>
               </ul>
             </div>
 
@@ -206,7 +209,7 @@ const Navbar = () => {
               </ul>
             </div>
 
-            <Link href="/get-involved">
+            <Link href="/get-involved" onClick={closeMenu}>
               <Button className="bg-red-600 text-white px-4 py-2 rounded-3xl hover:bg-red-700">
                 Get Involved
               </Button>

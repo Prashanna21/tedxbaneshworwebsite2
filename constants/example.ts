@@ -37,56 +37,58 @@ export const SpeakerCardListExammple: TSpeakerCardProps[] = [
 
 
 export const FirstEditionSpeakerList: TSpeakerCardProps[] = [
-    {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Radhika Regmi",
-      position: "?",
+  {
+    imageSrc: `/first-edition-speakers/Abdus-Miya-tedxbaneshwor.png`,
+    name: "Abdus Miya",
+    position: "Youth Politician",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Sunil Babu Pant",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Manita-Rajkarnikar-tedx-baneshwor.jpg`,
+    name: "Dr. Manita Rajkarnikar",
+    position: "Past Director, Red Cross",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Hon. Rahbar Ansari",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Manoj-Gyawali-tedx.jpg`,
+    name: "Manoj Gyawali",
+    position: "Deputy CEO, Nabil Bank",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Dr. Manita Rajkarnikar",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Prajwal-Bhattarai-tedx-baneshwor.jpg`,
+    name: "Prajwal Bhattarai",
+    position: "Youth Activist & Leader",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Manoj Gyawali",
-      position: "?",
+    imageSrc: `/first-edition-speakers/radhika_regmi_pokharel_tedx_baneshwor.png`,
+    name: "Radhika Regmi",
+    position: "Deputy Director, IFES",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Sabin Lamichhane",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Rahbar-Ansari-tedx-baneshwor.jpg`,
+    name: "Rahbar Ansari",
+    position: "Provincial Assembly Member",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Prajwal Bhattarai",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Sabin-Lamichhane-tedx.jpg`,
+    name: "Sabin Lamichhane",
+    position: "Youth Engagement Expert",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Shreeya Giri",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Shreeya-Giri-tedx-baneshwor.jpg`,
+    name: "Shreeya Giri",
+    position: "Forbes Under 30",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Abdus Miya",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Sunil_babu_pant_tedx.jpg`,
+    name: "Sunil Babu Pant",
+    position: "LGBTQ+ Activist & Politician",
   },
   {
-      imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-      name: "Swikar Sharma",
-      position: "?",
+    imageSrc: `/first-edition-speakers/Swikar-Sharma-tedx-baneshwor.jpg`,
+    name: "Swikar Sharma",
+    position: "Software Engineer",
   },
+
+
 ];
 
 export const FirstEditionPerformers: TSpeakerCardProps[] = [

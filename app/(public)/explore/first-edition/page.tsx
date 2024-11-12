@@ -51,12 +51,9 @@ export default function GetInvolved() {
         <div className="flex flex-col items-center gap-6 max-w-[1100px] mx-auto px-4">
           <h2 className="text-4xl font-bold text-white"><span className="text-red-500">1<sup>st</sup></span> Edition <span className="text-red-500">Speakers</span></h2>
           <p className="text-white text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit optio
-            tempora harum, deserunt magni, et at exercitationem tempore quaerat
-            eum illum, voluptatibus veniam dignissimos delectus obcaecati
-            blanditiis cupiditate dolorem alias!
+          Our inaugural TEDx Baneshwor event featured an inspiring lineup of speakers from diverse backgrounds. Each shared unique insights, compelling stories, and innovative ideas aimed at sparking positive change in our community.
           </p>
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {FirstEditionSpeakerList?.map((item) => (
               <SpeakerCard key={item.name} {...item} />
             ))}
@@ -74,7 +71,7 @@ export default function GetInvolved() {
             eum illum, voluptatibus veniam dignissimos delectus obcaecati
             blanditiis cupiditate dolorem alias!
           </p>
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {FirstEditionPerformers?.map((item) => (
               <SpeakerCard key={item.name} {...item} />
             ))}
