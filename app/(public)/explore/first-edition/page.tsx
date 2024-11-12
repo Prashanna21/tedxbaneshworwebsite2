@@ -63,13 +63,10 @@ export default function GetInvolved() {
 
 
       <section className="py-12">
-        <div className="flex flex-col items-center gap-6 max-w-[1100px] mx-auto px-4">
-        <h2 className="text-4xl font-bold text-black-c1"><span className="text-red-500">1<sup>st</sup></span> Edition <span className="text-red-500">Performers</span></h2>
-          <p className="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit optio
-            tempora harum, deserunt magni, et at exercitationem tempore quaerat
-            eum illum, voluptatibus veniam dignissimos delectus obcaecati
-            blanditiis cupiditate dolorem alias!
+        <div className="flex flex-col items-center gap-2 max-w-[1100px] mx-auto px-4">
+        <h2 className="md:text-4xl text-3xl font-bold text-black-c1"><span className="text-red-500">1<sup>st</sup></span> Edition <span className="text-red-500">Performers</span></h2>
+          <p className="text-center mb-4">
+          The inaugural TEDx Baneshwor event was a vibrant showcase of inspiring speakers, creative performances, and unforgettable moments, captured beautifully in these gallery snapshots.
           </p>
           <div className="max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {FirstEditionPerformers?.map((item) => (

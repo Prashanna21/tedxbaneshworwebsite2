@@ -7,7 +7,7 @@ const SpeakerCard = ({ name, position, imageSrc }: TSpeakerCardProps) => {
   return (
    
 
-    <div className="min-h-[307px]">
+    <div className="min-h-[307px] filter hover:scale-105 transition duration-300 ease-in-out">
       <div className="relative h-[150px] w-[160px] z-0  md:w-[200px] md:h-[200px]">
         <Image alt="speaker" src={imageSrc} fill 
         sizes="(max-width: 768px) 150px, 200px" 
