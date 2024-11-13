@@ -41,7 +41,7 @@ const OurTeamRoute = () => {
             eum illum, voluptatibus veniam dignissimos delectus obcaecati
             blanditiis cupiditate dolorem alias!
           </p>
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {TeamCardList?.map((item) => (
               <SpeakerCard key={item.name} {...item} />
             ))}
