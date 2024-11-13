@@ -2,7 +2,7 @@ import OurTeamHeroSection from "@/components/our-team-hero-section";
 import TitleHighlighted from "@/components/shared/highligted-title";
 import InfoBox from "@/components/shared/InfoBox";
 import SpeakerCard from "@/components/shared/speaker-card";
-import { SpeakerCardListExammple, TeamCardList } from "@/constants/example";
+import { DevTeamCardList, SpeakerCardListExammple, TeamCardList } from "@/constants/example";
 import Image from "next/image";
 import React from "react";
 
@@ -50,15 +50,12 @@ const OurTeamRoute = () => {
       </section>
       <section className="py-12">
         <div className="flex flex-col items-center gap-6 max-w-[1100px] mx-auto px-4">
-        <h2 className="text-4xl font-bold text-black-c1"> Meet Our <span className="text-red-500">Developer</span> Team </h2>
+        <h2 className="text-3xl md:text-4xl text-center font-bold text-black-c1"> Meet Our <span className="text-red-500">Developer</span> Team </h2>
           <p className="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit optio
-            tempora harum, deserunt magni, et at exercitationem tempore quaerat
-            eum illum, voluptatibus veniam dignissimos delectus obcaecati
-            blanditiis cupiditate dolorem alias!
+          Who built the TEDx Baneshwor website using Next.js with TypeScript and Tailwind CSS for smooth development and styling, with all the designs coming together in Figma. Super proud of what our team has put together!
           </p>
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {TeamCardList?.map((item) => (
+          <div className="max-w-[1200px] justify-center mx-auto grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {DevTeamCardList?.map((item) => (
               <SpeakerCard key={item.name} {...item} />
             ))}
           </div>

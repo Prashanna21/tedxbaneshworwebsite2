@@ -125,13 +125,31 @@ export const FirstEditionPerformers: TSpeakerCardProps[] = [
 export const TeamCardList: TSpeakerCardProps[] = [
   {
     imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    name: "Ronak Sakhya",
+    position: "License Holder",
   },
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    imageSrc: `/about/OC/Hangsam-TedxBaaneshwor.jpg`,
+    name: "Hangsam Nembang",
+    position: "OC Head",
+  },
+
+  {
+    imageSrc: `/about/OC/Tisa-Shakya-TedxBaneshwor.png`,
+    name: "Tisa Sakhya",
+    position: "Marketing Head",
+  },
+
+  {
+    imageSrc: `/about/developer/Prashanna-Maharjan-Tedx.png`,
+    name: "Prashanna Maharjan",
+    position: "IT Head",
+  },
+
+  {
+    imageSrc: `/about/developer/Bipan-Tedx-Baneshwor.jpg`,
+    name: "Bipan Neupane",
+    position: "Administrator",
   },
 
   {
@@ -152,22 +170,39 @@ export const TeamCardList: TSpeakerCardProps[] = [
     position: "",
   },
 
+
+  
+];
+
+
+export const DevTeamCardList: TSpeakerCardProps[] = [
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    imageSrc: `/about/developer/Prashanna-Maharjan-Tedx.png`,
+    name: "Prashanna Maharjan",
+    position: "Project Lead & Developer",
+  },
+  {
+    imageSrc: `/about/developer/Abhisek-katwal-tedx.jpg`,
+    name: "Abishek Katwal",
+    position: "Lead Designer",
   },
 
   {
     imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    name: "Bijay",
+    position: "Developer",
   },
 
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    imageSrc: `/about/developer/Pratham-Shrestha-Tedx.jpg`,
+    name: "Pratham Shrestha",
+    position: "Developer",
+  },
+
+  {
+    imageSrc: `/about/developer/Bipan-Tedx-Baneshwor.jpg`,
+    name: "Bipan Neupane",
+    position: "Designer",
   },
 
 
