@@ -25,14 +25,13 @@ const CallingSection = () => {
             >
                 <div className="flex justify-center items-center h-full">
                     <div className=" md:w-[85%] flex flex-col gap-3 text-center md:text-left">
-                            <h2 className="leading-[30px] md:leading-[55px] text-2xl md:text-4xl  font-semibold text-white">CALLING ALL STORYTELLERS 
-                        AND SPEAKERS!</h2>
+                            <h2 className="leading-[30px] md:leading-[55px] text-2xl md:text-4xl  font-semibold text-white">21<sup>st</sup> DECEMBER MARK YOUR CALENDAR</h2>
                         <h3 className="text-xl font-semibold text-white">
                         LET’S DISCOVER “IDEAS WORTH SPREADING”
                         </h3>
 
                         <h4 className="text-white">
-                        Applications Open from Date-Date
+                        TEDx Baneshwor 2<sup>nd</sup> Edition Comming Soon...
                         </h4>
 
                         <Button variant="default" className="font-semibold text-lg py-6 px-10 self-center md:self-start">

@@ -68,11 +68,7 @@ const Navbar = () => {
                   Tedx First Editon
                 </li>
               </Link>
-              <Link href={"/explore/second-edition"}>
-                <li className="px-4 py-2 hover:bg-[#c15151] cursor-pointer">
-                 Tedx Second Editon
-                </li>
-                </Link>
+            
               </ul>
             </div>
 
@@ -173,9 +169,6 @@ const Navbar = () => {
                   <Link href={"/explore/first-edition"}>Tedx First Edition</Link>
                 </li>
 
-                <li className="py-2 text-sm cursor-pointer" onClick={closeMenu}>
-                  <Link href={"/explore/second-edition"}>Text Second Edition</Link>
-                </li>
               </ul>
             </div>
 

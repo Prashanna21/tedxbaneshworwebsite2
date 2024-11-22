@@ -11,7 +11,7 @@ const GallerySection = () => {
 
             <div className="w-full max-w-[1100px] grid gap-3 grid-cols-1 lg:grid-cols-3">
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-1.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-1.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -20,7 +20,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-2.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-2.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -29,7 +29,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-3.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-3.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -38,7 +38,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-4.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-4.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -47,7 +47,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-5.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-5.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -56,7 +56,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-6.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-6.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -65,7 +65,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-7.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-7.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -74,7 +74,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-8.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-8.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -83,7 +83,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-9.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-9.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -92,7 +92,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-10.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-10.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -101,7 +101,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-11.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-11.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
@@ -110,7 +110,7 @@ const GallerySection = () => {
             </div>
 
             <div className="relative h-72 filter hover:grayscale hover:scale-105 transition duration-300 ease-in-out">
-                <Image alt="speaker" src="/first-edition-gallery/TedxBaneshwor-Glimp-12.webp" fill 
+                <Image alt="TedxBaneshwor" src="/first-edition-gallery/TedxBaneshwor-Glimp-12.webp" fill 
                     sizes="400px" 
                     style={{
                         objectFit: "cover",
