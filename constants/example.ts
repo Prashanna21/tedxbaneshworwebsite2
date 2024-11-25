@@ -18,14 +18,14 @@ export const SpeakerCardListExammple: TSpeakerCardProps[] = [
     position: "Member of Parliament",
   },
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    imageSrc: `/speakers-pic/Upendra-Subba-TedxBaneshwor.jpg`,
+    name: "Upendra Subba",
+    position: "Film Director and Writer",
   },
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    imageSrc: `/speakers-pic/Asma-Kc-TedxBaneshwor.jpg`,
+    name: "Ashma Kumari Kc",
+    position: "Miss Nepal World 2024",
   },
 
   {
