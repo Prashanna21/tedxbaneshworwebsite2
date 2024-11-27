@@ -173,7 +173,7 @@ export const TeamCardList: TSpeakerCardProps[] = [
   {
     imageSrc: `/about/OC/Saksham-Rupakheti.jpg`,
     name: "Saksham Rupakheti",
-    position: "Research Head",
+    position: "Research And Development Head",
   },
 
 
