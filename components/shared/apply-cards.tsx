@@ -9,7 +9,7 @@ const ApplyCard = ({title, desc, imgSrc, applyLink, imgAlt = "tedxBaneshwor Tedx
 
 
     return (
-        <div className="w-[330px] flex flex-col justify-center items-center gap-y-2">
+        <div className="w-[330px] flex flex-col justify-center items-center h gap-y-2">
            <div className="relative w-[325px] h-[271px]">
                 <Image 
                         className="s"
@@ -30,7 +30,7 @@ const ApplyCard = ({title, desc, imgSrc, applyLink, imgAlt = "tedxBaneshwor Tedx
                     <span className="text-red-500">{lastWord}</span>
                 </h2>
 
-                <p className="text-black-c1 font-medium">{desc}</p>
+                <p className="text-black-c1 h-auto md:h-[100px] font-medium">{desc}</p>
 
                 <a href={applyLink} target="_blank" className="w-full">
                 <Button  className="w-full bg-red-500 hover:bg-red-600" variant="default">Apply</Button>

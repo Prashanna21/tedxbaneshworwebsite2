@@ -329,20 +329,21 @@ export const NAV_LINKS_EXAMPLE = [
 export const GET_INVOLVED_APPLY_LIST = [
   {
     title: "Apply for Speaker",
-    desc: `Lorem ipsum dolor sit amet consectetur. Vitae sagittis ut mauris aliquet tortor. Im perdiet faucibus vitae scelerisque ut fau cibus.`,
+    desc: `Do you have a unique perspective, an inspiring story to share with the world? Join us as a speaker for TEDx Baneshwor’s 2nd Edition as a speaker.`,
     imgSrc: `/get-involved-pics/speaker-apply-pic.jpeg`,
     applyLink: `#`,
   },
   {
     title: "Apply for Volunteer",
-    desc: `Lorem ipsum dolor sit amet consectetur. Vitae sagittis ut mauris aliquet tortor. Im perdiet faucibus vitae scelerisque ut fau cibus.`,
+    desc: `
+Volunteers are the backbone of TEDx Baneshwor. By joining our team, you’ll help bring this incredible event to life.`,
     imgSrc: `/get-involved-pics/apply_volunteer.png`,
     applyLink: `#`,
   },
   {
     title: "Apply for Performer",
-    desc: `Lorem ipsum dolor sit amet consectetur. Vitae sagittis ut mauris aliquet tortor. Im perdiet faucibus vitae scelerisque ut fau cibus.`,
+    desc: `Are you a musician, dancer, or artist with a story to tell through your craft? TEDx Baneshwor’s is the stage for you to inspire and captivate the audience.`,
     imgSrc: `/get-involved-pics/apply_performer.png`,
-    applyLink: `#`,
+    applyLink: `https://docs.google.com/forms/d/e/1FAIpQLSe18tuW8KRGsw7Qm7eHwogIkPN2vpX-Db_3FYJrZYntp1kOwg/viewform?fbclid=IwZXh0bgNhZW0CMTEAAR12X418h58rInOO3H4sZZG_5SmOGg9LOewQNHAg3OOnFR5bmIKPDO6nNqI_aem_ZUmA1J3hCS9ro28wDUIxpg`,
   },
 ];
