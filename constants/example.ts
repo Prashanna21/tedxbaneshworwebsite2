@@ -129,9 +129,9 @@ export const TeamCardList: TSpeakerCardProps[] = [
     position: "License Holder",
   },
   {
-    imageSrc: `/about/OC/Hangsam-TedxBaaneshwor.webp`,
+    imageSrc: `/about/OC/Hangsam-TedxBaaneshwor.jpg`,
     name: "Hangsam Nembang",
-    position: "OC Head",
+    position: "Event Head",
   },
 
   {
