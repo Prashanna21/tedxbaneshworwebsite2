@@ -32,9 +32,11 @@ const HeroSection: React.FC = async () => {
                 Explore More
               </Button> 
           </Link>
+        <Link target="_blank" href= "https://docs.google.com/forms/d/e/1FAIpQLSetxMvRg_KWblCiS4qVQebxe5SGS3djdRPAf0jl5o1b_9ZtYA/viewform?fbclid=PAY2xjawG6bxVleHRuA2FlbQIxMQABps12G82ReGkOjV5TOA4dDj_a89Q4VSwPiBOhDB6sag1JrG9xCH6VCDe2Qg_aem_SmjvUtLFpMF9jRlyZFDpgg" >
           <Button className="font-bold text-lg py-6 px-4 md:py-8 md:px-6 md:text-xl" variant="secondary">
             Buy Tickets
           </Button>
+        </Link>
         </div>
       </div>
     </section>
