@@ -12,11 +12,20 @@ export const SpeakerCardListExammple: TSpeakerCardProps[] = [
     name: "Sudip Bhai Subedi",
     position: "Content Creator (IDS)",
   },
+
+  {
+    imageSrc: `/speakers-pic/Kiran-Chhemjong-Tedx.jpg`,
+    name: "Kiran Chhemjong",
+    position: "Captain, National Footbal Team",
+  },
+
   {
     imageSrc: `/speakers-pic/Biraj-TedxBaneshwor.jpg`,
     name: "Hon. Biraj Bhakta Shrestha",
     position: "Member of Parliament",
   },
+  
+
   {
     imageSrc: `/speakers-pic/Upendra-Subba-TedxBaneshwor.jpg`,
     name: "Upendra Subba",
@@ -29,11 +38,45 @@ export const SpeakerCardListExammple: TSpeakerCardProps[] = [
   },
 
   {
+    imageSrc: `/speakers-pic/Bablu-Gupta-Tedx.jpg`,
+    name: "Bablu Gupta",
+    position: "Founder of 100's Group (Social Activist)",
+  },
+
+  
+
+  {
     imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
     name: "?",
     position: "",
   },
 ];
+
+
+export const PerformerCardListExample: TSpeakerCardProps[] = [
+  {
+    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+    name: "?",
+    position: "",
+  },
+  {
+    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+    name: "?",
+    position: "",
+  },
+  {
+    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+    name: "?",
+    position: "",
+  },
+
+  {
+    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+    name: "?",
+    position: "",
+  },
+]
+
 
 
 export const FirstEditionSpeakerList: TSpeakerCardProps[] = [
@@ -194,8 +237,8 @@ export const DevTeamCardList: TSpeakerCardProps[] = [
   },
 
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "Bijay",
+    imageSrc: `/about/developer/Bijay-Bohora-Tedx.jpg`,
+    name: "Bijay Bohora",
     position: "Developer",
   },
 
