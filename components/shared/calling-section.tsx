@@ -14,7 +14,7 @@ const CallingSection = () => {
             }}
             >
                 <img 
-                    className="size-full" src="groupphoto.jpeg"/>
+                    className="size-full" src="Banner-Tedx-Baneshwor.jpg"/>
             </div>
 
             <div 

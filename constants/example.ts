@@ -43,37 +43,58 @@ export const SpeakerCardListExammple: TSpeakerCardProps[] = [
     position: "Founder of 100's Group (Social Activist)",
   },
 
-  
+  {
+    imageSrc: `/speakers-pic/Prabin-Bhattarai-Tedx.jpg`,
+    name: "Prabin Bhattarai",
+    position: "UAV Expert & Aviation Safety Specialist",
+  },
 
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    imageSrc: `/speakers-pic/Rajan-Koirala-Tedx.jpg`,
+    name: "Rajan Koirala",
+    position: "Founder of Mindset Cube International",
   },
+
+  {
+    imageSrc: `/speakers-pic/Nikita-Agarwal-Tedx.jpg`,
+    name: "Nikita Agarwal",
+    position: "M.D.S Prosthodontics and Oral Implantology",
+  },
+
+  {
+    imageSrc: `/speakers-pic/Binod-Thapa-Tedx.jpg`,
+    name: "Binod Thapa",
+    position: "Education Counselor",
+  },
+
+
+
+
+
 ];
 
 
 export const PerformerCardListExample: TSpeakerCardProps[] = [
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    imageSrc: `/performers/Mukti-Shakya.jpg`,
+    name: "Mukti Shakya",
+    position: "Singer",
   },
   {
     imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    name: "Anup Neupane",
+    position: "AJ BOB",
   },
   {
     imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    name: "Kristina Allen",
+    position: "Singer",
   },
 
   {
     imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
-    name: "?",
-    position: "",
+    name: "Sanjula Ranpal",
+    position: "Poet",
   },
 ]
 
