@@ -97,7 +97,7 @@ export const PerformerCardListExample: TSpeakerCardProps[] = [
   },
 
   {
-    imageSrc: `/performers/sanjula-ranpal.jpg`,
+    imageSrc: `/performers/sanjula-ranpal-tedx.jpg`,
     name: "Sanjula Ranpal",
     position: "Poet",
   },
