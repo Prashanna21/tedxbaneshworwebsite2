@@ -8,26 +8,42 @@ const SponserSection = () => {
                 Event <span className="text-red-500">Sponsors</span>
             </h2>
 
-            <div className="flex gap-5 flex-wrap justify-center">
-                
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
+            <div className="flex gap-5 flex-wrap justify-center items-center">
+
+            <div className="relative object-contain  h-32 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/techspire-college.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
                 </div>
+
+                
+               
 
                 {/* Placeholder sponsor */}
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
-                </div>
-
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
-                </div>
-            </div>
-
-            <div className="flex gap-5 flex-wrap justify-center items-center">
-                 <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
+                <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
                     <Image
-                        src="/partners/tedxbaneshwor-partner-vaca.jpg"
+                        src="/partners/cf-moto.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
+                </div>
+
+
+                <div className="relative object-contain  h-32 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/starhospital.jpg"
                         alt="Sponsor Logo"
                         fill
                         sizes="160px"
@@ -40,7 +56,7 @@ const SponserSection = () => {
 
                 <div className="relative object-contain  h-40 w-40 flex justify-center items-center">
                     <Image
-                        src="/partners/tedxbaneshwor-partner-edusanjal.jpg"
+                        src="/partners/silicy-pizza.jpg"
                         alt="Sponsor Logo"
                         fill
                         sizes="160px"
@@ -50,15 +66,75 @@ const SponserSection = () => {
                         }}
                     />
                 </div>
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
+
+            </div>
+
+
+            <div className="flex gap-5 flex-wrap justify-center items-center">
+
+                <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/study-lane.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
                 </div>
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
+
+                 <div className="relative object-contain  h-20 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/prime-healthsolutions.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
                 </div>
-                <div className="bg-black-c4 h-20 w-40 flex justify-center items-center text-white">
-                    Sponsor
+
+                <div className="relative object-contain  h-40 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/arya-wellness.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
                 </div>
+                <div className="relative object-contain  h-40 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/wecare.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
+                </div>
+                <div className="relative object-contain  h-40 w-40 flex justify-center items-center">
+                    <Image
+                        src="/partners/tisa.jpg"
+                        alt="Sponsor Logo"
+                        fill
+                        sizes="160px"
+                        className="rounded"
+                        style={{
+                            objectFit: "cover"
+                        }}
+                    />
+                </div>
+                
                 <div className="relative object-contain  h-40 w-40 flex justify-center items-center">
                     <Image
                         src="/partners/hamro-patro-tedxbaneshwor.png"

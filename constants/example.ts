@@ -81,18 +81,23 @@ export const PerformerCardListExample: TSpeakerCardProps[] = [
     position: "Singer",
   },
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+    imageSrc: `/performers/Anup-Neupane-Tedx-Baneshwor.jpg`,
     name: "Anup Neupane",
     position: "AJ BOB",
   },
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+    imageSrc: `/performers/Sunira-Shakya.jpg`,
+    name: "Sunira Shakya",
+    position: "Kumari Dance",
+  },
+  {
+    imageSrc: `/performers/Kristina-Allen-Tedx.jpg`,
     name: "Kristina Allen",
     position: "Singer",
   },
 
   {
-    imageSrc: `/speakers-pic/Mystery-TedxBaneshwor.jpg`,
+    imageSrc: `/performers/sanjula-ranpal.jpg`,
     name: "Sanjula Ranpal",
     position: "Poet",
   },
