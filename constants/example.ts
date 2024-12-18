@@ -90,6 +90,13 @@ export const PerformerCardListExample: TSpeakerCardProps[] = [
     name: "Sunira Shakya",
     position: "Kumari Dance",
   },
+
+  {
+    imageSrc: "/performers/Yaju-Acharya.jpg",
+    name: "Yaju Acharya",
+    position: "Flute Player",
+  },
+
   {
     imageSrc: `/performers/Kristina-Allen-Tedx.jpg`,
     name: "Kristina Allen",
@@ -97,7 +104,7 @@ export const PerformerCardListExample: TSpeakerCardProps[] = [
   },
 
   {
-    imageSrc: `/performers/sanjula-ranpal-tedx.jpg`,
+    imageSrc: `/performers/sanjula-ranpal-tedx.webp`,
     name: "Sanjula Ranpal",
     position: "Poet",
   },
